@@ -1,21 +1,26 @@
 const core = require('@actions/core')
 const github = require('@actions/github')
+const fs = require('fs')
+const plan = require('./plan')
 
-const plan = (commentInput, githubToken) => {
-  core.info('Looking for an existing fmt PR comment.')
-  const context = github.context
-  const octokit = github.getOctokit(githubToken)
-  octokit.rest.issues.createComment({
-    ...context.repo,
-    issue_number: context.issue.number,
-    body: 'aaaa'
-  })
+const createCommentBody = (result) => {
+  const title = result.title
+  const detail = result.detail
+  return `### ${title}
+<details open><summary>Show Output</summary>
+
+\`\`\`diff
+${detail}
+\`\`\`
+
+</details>`
 }
 
 const run = () => {
-  const commentType = core.getInput('comment_type').trim()
-  const commentInput = core.getInput('comment_input').trim()
-  const githubToken = core.getInput('github-token').trim()
+  const type = core.getInput('type').trim()
+  let input = core.getInput('input').trim()
+  const inputFile = core.getInput('input_file').trim()
+  const sections = core.getInput('sections').split(',').map(s => s.trim())
 
   if (github.context.eventName !== 'pull_request') {
     core.warning("Action doesn't seem to be running in a PR workflow context.")
@@ -23,13 +28,40 @@ const run = () => {
     return
   }
 
-  switch (commentType) {
+  const githubToken = process.env.GITHUB_TOKEN
+  if (githubToken === 'undefined') {
+    throw new Error('GITHUB_TOKEN environment variable is required')
+  }
+
+  if (input && inputFile) {
+    throw new Error('Specify only one of input or input_file')
+  }
+
+  if (inputFile) {
+    input = fs.readFileSync(inputFile, 'utf-8')
+  }
+
+  core.info("Input:")
+  core.info(input)
+
+  let result
+  switch (type) {
     case 'plan':
-      plan(commentInput, githubToken)
+      result = plan(input, sections)
       break
     default:
-      core.warning(`Unknown comment_type ${commentType}`)
+      core.warning(`Unknown type ${type}`)
   }
+
+  core.info(result)
+
+  const octokit = github.getOctokit(githubToken)
+
+  octokit.rest.issues.createComment({
+    ...github.context.repo,
+    issue_number: github.context.issue.number,
+    body: createCommentBody(result)
+  })
 }
 
 module.exports = run

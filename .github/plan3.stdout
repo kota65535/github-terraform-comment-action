@@ -1,0 +1,1196 @@
+[0m[1mmodule.cpf_server.aws_cloudwatch_log_group.coturn: Refreshing state... [id=/aip/cpf/coturn][0m
+[0m[1mmodule.cpf_server.aws_cloudwatch_log_group.app: Refreshing state... [id=/aip/cpf/app][0m
+[0m[1mmodule.cpf_server.module.lambda_notify_alarm.aws_cloudwatch_log_group.group: Refreshing state... [id=/aws/lambda/notify-alarm-cpf][0m
+[0m[1mmodule.file_server.aws_backup_vault.vault: Refreshing state... [id=tcn-contents][0m
+[0m[1mmodule.cpf_server.aws_cloudwatch_dashboard.cpf: Refreshing state... [id=cpf][0m
+[0m[1maws_eip.iot_nlb[0]: Refreshing state... [id=eipalloc-0b46373cc9703b72a][0m
+[0m[1maws_eip.iot_nlb[1]: Refreshing state... [id=eipalloc-02d31d21ad9aba13d][0m
+[0m[1mmodule.cpf_clients.aws_iot_certificate.client["14"]: Refreshing state... [id=5e39956a131c8ed7119ddfcf5d9b6f5c93d30366300da8c76252afd43b86789d][0m
+[0m[1mmodule.cpf_clients.aws_iot_certificate.client["1"]: Refreshing state... [id=93a9879c273402b7a6693b7551e13df1c273bf42439e71f66743995d7f19cedb][0m
+[0m[1mmodule.cpf_clients.aws_iot_certificate.client["2"]: Refreshing state... [id=79ab647aece04d8c550702277cb949580984c22e60411f863d7f20db507154c6][0m
+[0m[1mmodule.cpf_clients.aws_iot_certificate.client["16"]: Refreshing state... [id=45571548e67ca12018ec8fbf6dfa2a006982102c0b610bb8d8c983b23fadc392][0m
+[0m[1mmodule.cpf_clients.aws_iot_certificate.client["15"]: Refreshing state... [id=dc8f7918e62556c04f10210fef72ca717b5dd1b917335e94a9fb659cac855d78][0m
+[0m[1mmodule.cpf_clients.aws_iot_certificate.client["8"]: Refreshing state... [id=fb4e958ea3821aaffb3790967e1e006fe42c5072c75b733ccddb94853330164d][0m
+[0m[1mmodule.cpf_clients.aws_iot_certificate.client["9"]: Refreshing state... [id=5a515bfe0ad729053791cc20eebfce263ceb5ad2f92ad0f615a766be577c0ee9][0m
+[0m[1mmodule.cpf_clients.aws_iot_certificate.client["4"]: Refreshing state... [id=7ac6a93260c30d40b7e8dd3856629ef4d535aea64d2af0a72d204528211975d4][0m
+[0m[1mmodule.cpf_clients.aws_iot_certificate.client["18"]: Refreshing state... [id=34005a99d147d066ed59fd4875011de9a3e1bd3a1132ce60872d01850c29b13b][0m
+[0m[1mmodule.cpf_clients.aws_iot_certificate.client["17"]: Refreshing state... [id=b01acb867a27f7dbcdcd16d5b2e7fc8141b122522e5a742e9ec1f132379cdb08][0m
+[0m[1mmodule.cpf_clients.aws_iot_certificate.client["11"]: Refreshing state... [id=fc6ca31bd59b184513990f8fa118d49212d4b402bfe9b7fa4892fcf6668bd787][0m
+[0m[1mmodule.cpf_clients.aws_iot_certificate.client["6"]: Refreshing state... [id=ac8f78ebaf97ea577df1236255f14a43f104f2fd024c330a82c9dcff58cd7301][0m
+[0m[1mmodule.cpf_clients.aws_iot_certificate.client["19"]: Refreshing state... [id=d75b0af6038ccf5cadaa22ce63f3c1d69f41b97961d9c8f867379b7996f755e1][0m
+[0m[1mmodule.cpf_clients.aws_iot_certificate.client["21"]: Refreshing state... [id=e465eb9d6f67cef15223a6cdcab4898d7b79ae85e8a64bfd7854c8f24e15a16c][0m
+[0m[1mmodule.cpf_clients.aws_iot_certificate.client["24"]: Refreshing state... [id=58b000356d4a4987d3ef876abdffe06d4717bb33d73edce1b7e095a0187b5127][0m
+[0m[1mmodule.cpf_clients.aws_iot_certificate.client["7"]: Refreshing state... [id=7bac75152bc4049724e61e5640e92a423afecf5418d8c0547b1809353b3a3215][0m
+[0m[1mmodule.cpf_clients.aws_iot_certificate.client["12"]: Refreshing state... [id=b6dcd33977302a5d5e03aafd532e075f4677737f65bc264b8bef56961acb1e3f][0m
+[0m[1mmodule.cpf_clients.aws_iot_certificate.client["3"]: Refreshing state... [id=aaf9c16ef5a87ba72694496403d7e9ea0a7782d225be2da881663d588c85ef75][0m
+[0m[1mmodule.cpf_clients.aws_iot_certificate.client["22"]: Refreshing state... [id=cfb4f0fe2750784f9fb13b0f7ff55ca2c159247314fbf135072540637fe2fd98][0m
+[0m[1mmodule.cpf_clients.aws_iot_certificate.client["26"]: Refreshing state... [id=9e030bba9c3d751b963e632e4d9064c1d021ba97dfab8b37f238bf0cf03b6252][0m
+[0m[1mmodule.cpf_clients.aws_iot_certificate.client["27"]: Refreshing state... [id=476a9ca2e8a61cf1bccb85c11f4298cda2c242895b28e0f6bcc5edb8dfa762db][0m
+[0m[1mmodule.cpf_clients.aws_iot_certificate.client["20"]: Refreshing state... [id=afdc5e1dc0ed44cade7111160744a7f2110d684f248abcbd45f7d33dc6e3dc64][0m
+[0m[1mmodule.cpf_clients.aws_iot_certificate.client["5"]: Refreshing state... [id=085dd145c23f6f316e2a4feed4931f9243b6d397034a99b83414ce21ab413b57][0m
+[0m[1mmodule.cpf_clients.aws_iot_certificate.client["23"]: Refreshing state... [id=7333c3ff7162d81f189f700ba4d901fe6a9c284d900a817cba97040d89fb6c88][0m
+[0m[1mmodule.cpf_clients.aws_iot_certificate.client["25"]: Refreshing state... [id=4165a91247b6217f555e928c1c39820ce9aa1c37015097518fe9e64958bec787][0m
+[0m[1mmodule.cpf_clients.aws_iot_certificate.client["10"]: Refreshing state... [id=6a8a53f595019607e166825560cc4f91de227e055e31e835de05a3f63f85bac8][0m
+[0m[1mmodule.cpf_server.aws_ecr_repository.coturn[0]: Refreshing state... [id=cpf-coturn][0m
+[0m[1mmodule.cpf_clients.aws_iot_certificate.client["13"]: Refreshing state... [id=f30204ec32c9095f81a6c1c45fd1e3c97099f70011fe38b9050cfe8a1cbbe6c7][0m
+[0m[1mmodule.cpf_server.aws_ecr_repository.app[0]: Refreshing state... [id=cpf-app][0m
+[0m[1mmodule.cpf_server.aws_ecs_cluster.cluster: Refreshing state... [id=arn:aws:ecs:ap-northeast-1:634518058314:cluster/cpf][0m
+[0m[1mmodule.cpf_server.aws_iot_certificate.server: Refreshing state... [id=3898f71fef4974263f8320d9f8fcd6f00c0fdc4a23370312a7f0dd64e983e21a][0m
+[0m[1mmodule.cpf_server.aws_eip.nlb[1]: Refreshing state... [id=eipalloc-0a51d1bfd356f83b8][0m
+[0m[1mmodule.cpf_server.aws_eip.nlb[0]: Refreshing state... [id=eipalloc-0c86c539c76ca9d98][0m
+[0m[1mmodule.cpf_server.aws_cloudwatch_log_metric_filter.iot_log_error_count: Refreshing state... [id=ErrorCount][0m
+[0m[1mmodule.cpf_server.aws_cloudwatch_log_metric_filter.app_log_error_count: Refreshing state... [id=ErrorCount][0m
+[0m[1mmodule.file_server.aws_backup_plan.plan: Refreshing state... [id=e352cc58-2c84-4ca9-91f2-905209760405][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy.client_pubsub: Refreshing state... [id=cpf-client-pubsub][0m
+[0m[1mmodule.file_server.aws_iam_role.backup: Refreshing state... [id=aip-backup-tcn-contents][0m
+[0m[1mmodule.cpf_server.aws_ecr_repository_policy.coturn[0]: Refreshing state... [id=cpf-coturn][0m
+[0m[1mmodule.cpf_server.aws_ecr_repository_policy.app[0]: Refreshing state... [id=cpf-app][0m
+[0m[1mmodule.cpf_server.module.lambda_notify_alarm.aws_iam_role.role: Refreshing state... [id=lambda-notify-alarm-cpf-role][0m
+[0m[1mmodule.cpf_server.aws_iam_role.ecs_task_execution: Refreshing state... [id=EcsTaskExecutionRole][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_pubsub["27"]: Refreshing state... [id=cpf-client-pubsub|arn:aws:iot:ap-northeast-1:634518058314:cert/476a9ca2e8a61cf1bccb85c11f4298cda2c242895b28e0f6bcc5edb8dfa762db][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_pubsub["8"]: Refreshing state... [id=cpf-client-pubsub|arn:aws:iot:ap-northeast-1:634518058314:cert/fb4e958ea3821aaffb3790967e1e006fe42c5072c75b733ccddb94853330164d][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_pubsub["7"]: Refreshing state... [id=cpf-client-pubsub|arn:aws:iot:ap-northeast-1:634518058314:cert/7bac75152bc4049724e61e5640e92a423afecf5418d8c0547b1809353b3a3215][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_pubsub["23"]: Refreshing state... [id=cpf-client-pubsub|arn:aws:iot:ap-northeast-1:634518058314:cert/7333c3ff7162d81f189f700ba4d901fe6a9c284d900a817cba97040d89fb6c88][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_pubsub["13"]: Refreshing state... [id=cpf-client-pubsub|arn:aws:iot:ap-northeast-1:634518058314:cert/f30204ec32c9095f81a6c1c45fd1e3c97099f70011fe38b9050cfe8a1cbbe6c7][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_pubsub["20"]: Refreshing state... [id=cpf-client-pubsub|arn:aws:iot:ap-northeast-1:634518058314:cert/afdc5e1dc0ed44cade7111160744a7f2110d684f248abcbd45f7d33dc6e3dc64][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_pubsub["3"]: Refreshing state... [id=cpf-client-pubsub|arn:aws:iot:ap-northeast-1:634518058314:cert/aaf9c16ef5a87ba72694496403d7e9ea0a7782d225be2da881663d588c85ef75][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_pubsub["22"]: Refreshing state... [id=cpf-client-pubsub|arn:aws:iot:ap-northeast-1:634518058314:cert/cfb4f0fe2750784f9fb13b0f7ff55ca2c159247314fbf135072540637fe2fd98][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_pubsub["11"]: Refreshing state... [id=cpf-client-pubsub|arn:aws:iot:ap-northeast-1:634518058314:cert/fc6ca31bd59b184513990f8fa118d49212d4b402bfe9b7fa4892fcf6668bd787][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_pubsub["16"]: Refreshing state... [id=cpf-client-pubsub|arn:aws:iot:ap-northeast-1:634518058314:cert/45571548e67ca12018ec8fbf6dfa2a006982102c0b610bb8d8c983b23fadc392][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_pubsub["21"]: Refreshing state... [id=cpf-client-pubsub|arn:aws:iot:ap-northeast-1:634518058314:cert/e465eb9d6f67cef15223a6cdcab4898d7b79ae85e8a64bfd7854c8f24e15a16c][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_pubsub["2"]: Refreshing state... [id=cpf-client-pubsub|arn:aws:iot:ap-northeast-1:634518058314:cert/79ab647aece04d8c550702277cb949580984c22e60411f863d7f20db507154c6][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_pubsub["15"]: Refreshing state... [id=cpf-client-pubsub|arn:aws:iot:ap-northeast-1:634518058314:cert/dc8f7918e62556c04f10210fef72ca717b5dd1b917335e94a9fb659cac855d78][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_pubsub["26"]: Refreshing state... [id=cpf-client-pubsub|arn:aws:iot:ap-northeast-1:634518058314:cert/9e030bba9c3d751b963e632e4d9064c1d021ba97dfab8b37f238bf0cf03b6252][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_pubsub["1"]: Refreshing state... [id=cpf-client-pubsub|arn:aws:iot:ap-northeast-1:634518058314:cert/93a9879c273402b7a6693b7551e13df1c273bf42439e71f66743995d7f19cedb][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_pubsub["14"]: Refreshing state... [id=cpf-client-pubsub|arn:aws:iot:ap-northeast-1:634518058314:cert/5e39956a131c8ed7119ddfcf5d9b6f5c93d30366300da8c76252afd43b86789d][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_pubsub["4"]: Refreshing state... [id=cpf-client-pubsub|arn:aws:iot:ap-northeast-1:634518058314:cert/7ac6a93260c30d40b7e8dd3856629ef4d535aea64d2af0a72d204528211975d4][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_pubsub["6"]: Refreshing state... [id=cpf-client-pubsub|arn:aws:iot:ap-northeast-1:634518058314:cert/ac8f78ebaf97ea577df1236255f14a43f104f2fd024c330a82c9dcff58cd7301][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_pubsub["18"]: Refreshing state... [id=cpf-client-pubsub|arn:aws:iot:ap-northeast-1:634518058314:cert/34005a99d147d066ed59fd4875011de9a3e1bd3a1132ce60872d01850c29b13b][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_pubsub["5"]: Refreshing state... [id=cpf-client-pubsub|arn:aws:iot:ap-northeast-1:634518058314:cert/085dd145c23f6f316e2a4feed4931f9243b6d397034a99b83414ce21ab413b57][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_pubsub["12"]: Refreshing state... [id=cpf-client-pubsub|arn:aws:iot:ap-northeast-1:634518058314:cert/b6dcd33977302a5d5e03aafd532e075f4677737f65bc264b8bef56961acb1e3f][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_pubsub["19"]: Refreshing state... [id=cpf-client-pubsub|arn:aws:iot:ap-northeast-1:634518058314:cert/d75b0af6038ccf5cadaa22ce63f3c1d69f41b97961d9c8f867379b7996f755e1][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_pubsub["17"]: Refreshing state... [id=cpf-client-pubsub|arn:aws:iot:ap-northeast-1:634518058314:cert/b01acb867a27f7dbcdcd16d5b2e7fc8141b122522e5a742e9ec1f132379cdb08][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_pubsub["25"]: Refreshing state... [id=cpf-client-pubsub|arn:aws:iot:ap-northeast-1:634518058314:cert/4165a91247b6217f555e928c1c39820ce9aa1c37015097518fe9e64958bec787][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_pubsub["10"]: Refreshing state... [id=cpf-client-pubsub|arn:aws:iot:ap-northeast-1:634518058314:cert/6a8a53f595019607e166825560cc4f91de227e055e31e835de05a3f63f85bac8][0m
+[0m[1mmodule.cpf_server.module.lambda_notify_alarm.aws_lambda_layer_version.version: Refreshing state... [id=arn:aws:lambda:ap-northeast-1:634518058314:layer:notify-alarm-cpf:32][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_pubsub["24"]: Refreshing state... [id=cpf-client-pubsub|arn:aws:iot:ap-northeast-1:634518058314:cert/58b000356d4a4987d3ef876abdffe06d4717bb33d73edce1b7e095a0187b5127][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_pubsub["9"]: Refreshing state... [id=cpf-client-pubsub|arn:aws:iot:ap-northeast-1:634518058314:cert/5a515bfe0ad729053791cc20eebfce263ceb5ad2f92ad0f615a766be577c0ee9][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing.client["13"]: Refreshing state... [id=dev_sqa_0005][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing.client["2"]: Refreshing state... [id=dev_test_0002][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing.client["18"]: Refreshing state... [id=dev_sqa_0010][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing.client["21"]: Refreshing state... [id=dev_sqa_0013][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing.client["11"]: Refreshing state... [id=dev_sqa_0003][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing.client["8"]: Refreshing state... [id=dev_trace_0004][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing.client["10"]: Refreshing state... [id=dev_sqa_0002][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing.client["5"]: Refreshing state... [id=dev_trace_0001][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing.client["17"]: Refreshing state... [id=dev_sqa_0009][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing.client["16"]: Refreshing state... [id=dev_sqa_0008][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing.client["23"]: Refreshing state... [id=dev_sqa_0015][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing.client["14"]: Refreshing state... [id=dev_sqa_0006][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing.client["19"]: Refreshing state... [id=dev_sqa_0011][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing.client["7"]: Refreshing state... [id=dev_trace_0003][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing.client["22"]: Refreshing state... [id=dev_sqa_0014][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing.client["27"]: Refreshing state... [id=dev_bxd_0003][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing.client["15"]: Refreshing state... [id=dev_sqa_0007][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing.client["9"]: Refreshing state... [id=dev_sqa_0001][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing.client["25"]: Refreshing state... [id=dev_bxd_0001][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing.client["20"]: Refreshing state... [id=dev_sqa_0012][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing.client["1"]: Refreshing state... [id=dev_test_0001][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing.client["6"]: Refreshing state... [id=dev_trace_0002][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing.client["26"]: Refreshing state... [id=dev_bxd_0002][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing.client["4"]: Refreshing state... [id=dev_test_0004][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing.client["3"]: Refreshing state... [id=dev_test_0003][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing.client["12"]: Refreshing state... [id=dev_sqa_0004][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing.client["24"]: Refreshing state... [id=dev_sqa_0016][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy.client_connect["5"]: Refreshing state... [id=cpf-client-connect-did-3B9C7A6E41F46BF7857CD81A763DA4B76696D01B][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy.client_connect["4"]: Refreshing state... [id=cpf-client-connect-did-D98C7180E0C89A5608975E3460586927D792D03E][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy.client_connect["21"]: Refreshing state... [id=cpf-client-connect-did-CED863B12A33FD7EA35D8964A7832485A176EE0C][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy.client_connect["11"]: Refreshing state... [id=cpf-client-connect-did-28ED202C5EF07DC90A7A350C9A9950C92DAC646B][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy.client_connect["7"]: Refreshing state... [id=cpf-client-connect-did-82611B10C6F16BDF3404725810C0A18532F2212A][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy.client_connect["17"]: Refreshing state... [id=cpf-client-connect-did-DA5971CFD88BC5A430319907B271BD577C08BBD0][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy.client_connect["23"]: Refreshing state... [id=cpf-client-connect-did-E5432E9FCF85EE35EB0444FF1679A0D1A34C5E09][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy.client_connect["27"]: Refreshing state... [id=cpf-client-connect-did-76CE640F61BB74790D55BF4F65EBE23174AF51ED][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy.client_connect["14"]: Refreshing state... [id=cpf-client-connect-did-7BC9FA684A649B0F4561189F22E5E44CA07A6AB2][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy.client_connect["3"]: Refreshing state... [id=cpf-client-connect-did-CC28349626977C995122436086D62268A958B995][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy.client_connect["16"]: Refreshing state... [id=cpf-client-connect-did-A01861EE21E56BC29191DE195CAC1983C0B4374E][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy.client_connect["13"]: Refreshing state... [id=cpf-client-connect-did-70966FBC86347248C4846888DB32C9099B0BAA11][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy.client_connect["12"]: Refreshing state... [id=cpf-client-connect-did-5CFB22FAA42B9354527A902C0D1C5E8BD786BC5B][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy.client_connect["25"]: Refreshing state... [id=cpf-client-connect-did-8AC789CF513B0E3178C7AA4527B17C90030B045F][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy.client_connect["18"]: Refreshing state... [id=cpf-client-connect-did-16522B666ABD257A7D62A3FD3CA40603367547F7][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy.client_connect["2"]: Refreshing state... [id=cpf-client-connect-did-7288875330B0B1373BF675A29DC318307578AE50][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy.client_connect["1"]: Refreshing state... [id=cpf-client-connect-did-0D27B3DE51F203D5193E9A1943333B20D57DFFF0][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy.client_connect["8"]: Refreshing state... [id=cpf-client-connect-did-CDA0C6E32E1C61968991DE460B9E1B5006940DB6][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy.client_connect["9"]: Refreshing state... [id=cpf-client-connect-did-A4EB16C64D605A5FFBE2D2607E1FE32DB3FDC258][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy.client_connect["22"]: Refreshing state... [id=cpf-client-connect-did-AB4B8118E942925912F94DE2BE111DCD34D1DEB7][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy.client_connect["20"]: Refreshing state... [id=cpf-client-connect-did-4DF192C63A768F67F69E6EAB8E94BFFA4B833D68][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy.client_connect["19"]: Refreshing state... [id=cpf-client-connect-did-6D6F4ACE922C6B1677D9D0256F2AD600F6067FB9][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy.client_connect["6"]: Refreshing state... [id=cpf-client-connect-did-1205789FDC5C471AB53A51F75DCEEEF8E82B06E8][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy.client_connect["15"]: Refreshing state... [id=cpf-client-connect-did-EDDEE26F40B8283B34E19FA2141FC7C70E9FB508][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy.client_connect["24"]: Refreshing state... [id=cpf-client-connect-did-D227D9F9932E77393DDF94F695D9176743456855][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy.client_connect["10"]: Refreshing state... [id=cpf-client-connect-did-59DC0E22BF8CD99F5C5C5C05EBD6158446C1F758][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy.client_connect["26"]: Refreshing state... [id=cpf-client-connect-did-B68E97BCB4B3CF0ED887F991DD35FA7878309306][0m
+[0m[1mmodule.cpf_server.aws_iot_thing.server: Refreshing state... [id=cpf-server][0m
+[0m[1mmodule.cpf_server.aws_sns_topic.trigger_restart_cpf: Refreshing state... [id=arn:aws:sns:ap-northeast-1:634518058314:trigger-restart-cpf][0m
+[0m[1mmodule.cpf_server.aws_sns_topic.cloudwatch_alarms_to_slack: Refreshing state... [id=arn:aws:sns:ap-northeast-1:634518058314:cpf-cloudwatch-alarms-to-slack][0m
+[0m[1mmodule.cpf_server.aws_iot_policy.server: Refreshing state... [id=cpf-server-policy][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing_principal_attachment.client["8"]: Refreshing state... [id=dev_trace_0004|arn:aws:iot:ap-northeast-1:634518058314:cert/fb4e958ea3821aaffb3790967e1e006fe42c5072c75b733ccddb94853330164d][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing_principal_attachment.client["5"]: Refreshing state... [id=dev_trace_0001|arn:aws:iot:ap-northeast-1:634518058314:cert/085dd145c23f6f316e2a4feed4931f9243b6d397034a99b83414ce21ab413b57][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing_principal_attachment.client["1"]: Refreshing state... [id=dev_test_0001|arn:aws:iot:ap-northeast-1:634518058314:cert/93a9879c273402b7a6693b7551e13df1c273bf42439e71f66743995d7f19cedb][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing_principal_attachment.client["16"]: Refreshing state... [id=dev_sqa_0008|arn:aws:iot:ap-northeast-1:634518058314:cert/45571548e67ca12018ec8fbf6dfa2a006982102c0b610bb8d8c983b23fadc392][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing_principal_attachment.client["26"]: Refreshing state... [id=dev_bxd_0002|arn:aws:iot:ap-northeast-1:634518058314:cert/9e030bba9c3d751b963e632e4d9064c1d021ba97dfab8b37f238bf0cf03b6252][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing_principal_attachment.client["25"]: Refreshing state... [id=dev_bxd_0001|arn:aws:iot:ap-northeast-1:634518058314:cert/4165a91247b6217f555e928c1c39820ce9aa1c37015097518fe9e64958bec787][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing_principal_attachment.client["4"]: Refreshing state... [id=dev_test_0004|arn:aws:iot:ap-northeast-1:634518058314:cert/7ac6a93260c30d40b7e8dd3856629ef4d535aea64d2af0a72d204528211975d4][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing_principal_attachment.client["2"]: Refreshing state... [id=dev_test_0002|arn:aws:iot:ap-northeast-1:634518058314:cert/79ab647aece04d8c550702277cb949580984c22e60411f863d7f20db507154c6][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing_principal_attachment.client["12"]: Refreshing state... [id=dev_sqa_0004|arn:aws:iot:ap-northeast-1:634518058314:cert/b6dcd33977302a5d5e03aafd532e075f4677737f65bc264b8bef56961acb1e3f][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing_principal_attachment.client["21"]: Refreshing state... [id=dev_sqa_0013|arn:aws:iot:ap-northeast-1:634518058314:cert/e465eb9d6f67cef15223a6cdcab4898d7b79ae85e8a64bfd7854c8f24e15a16c][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing_principal_attachment.client["20"]: Refreshing state... [id=dev_sqa_0012|arn:aws:iot:ap-northeast-1:634518058314:cert/afdc5e1dc0ed44cade7111160744a7f2110d684f248abcbd45f7d33dc6e3dc64][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing_principal_attachment.client["27"]: Refreshing state... [id=dev_bxd_0003|arn:aws:iot:ap-northeast-1:634518058314:cert/476a9ca2e8a61cf1bccb85c11f4298cda2c242895b28e0f6bcc5edb8dfa762db][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing_principal_attachment.client["11"]: Refreshing state... [id=dev_sqa_0003|arn:aws:iot:ap-northeast-1:634518058314:cert/fc6ca31bd59b184513990f8fa118d49212d4b402bfe9b7fa4892fcf6668bd787][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing_principal_attachment.client["22"]: Refreshing state... [id=dev_sqa_0014|arn:aws:iot:ap-northeast-1:634518058314:cert/cfb4f0fe2750784f9fb13b0f7ff55ca2c159247314fbf135072540637fe2fd98][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing_principal_attachment.client["15"]: Refreshing state... [id=dev_sqa_0007|arn:aws:iot:ap-northeast-1:634518058314:cert/dc8f7918e62556c04f10210fef72ca717b5dd1b917335e94a9fb659cac855d78][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing_principal_attachment.client["13"]: Refreshing state... [id=dev_sqa_0005|arn:aws:iot:ap-northeast-1:634518058314:cert/f30204ec32c9095f81a6c1c45fd1e3c97099f70011fe38b9050cfe8a1cbbe6c7][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing_principal_attachment.client["17"]: Refreshing state... [id=dev_sqa_0009|arn:aws:iot:ap-northeast-1:634518058314:cert/b01acb867a27f7dbcdcd16d5b2e7fc8141b122522e5a742e9ec1f132379cdb08][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing_principal_attachment.client["7"]: Refreshing state... [id=dev_trace_0003|arn:aws:iot:ap-northeast-1:634518058314:cert/7bac75152bc4049724e61e5640e92a423afecf5418d8c0547b1809353b3a3215][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing_principal_attachment.client["6"]: Refreshing state... [id=dev_trace_0002|arn:aws:iot:ap-northeast-1:634518058314:cert/ac8f78ebaf97ea577df1236255f14a43f104f2fd024c330a82c9dcff58cd7301][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing_principal_attachment.client["19"]: Refreshing state... [id=dev_sqa_0011|arn:aws:iot:ap-northeast-1:634518058314:cert/d75b0af6038ccf5cadaa22ce63f3c1d69f41b97961d9c8f867379b7996f755e1][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing_principal_attachment.client["23"]: Refreshing state... [id=dev_sqa_0015|arn:aws:iot:ap-northeast-1:634518058314:cert/7333c3ff7162d81f189f700ba4d901fe6a9c284d900a817cba97040d89fb6c88][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing_principal_attachment.client["24"]: Refreshing state... [id=dev_sqa_0016|arn:aws:iot:ap-northeast-1:634518058314:cert/58b000356d4a4987d3ef876abdffe06d4717bb33d73edce1b7e095a0187b5127][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing_principal_attachment.client["18"]: Refreshing state... [id=dev_sqa_0010|arn:aws:iot:ap-northeast-1:634518058314:cert/34005a99d147d066ed59fd4875011de9a3e1bd3a1132ce60872d01850c29b13b][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing_principal_attachment.client["3"]: Refreshing state... [id=dev_test_0003|arn:aws:iot:ap-northeast-1:634518058314:cert/aaf9c16ef5a87ba72694496403d7e9ea0a7782d225be2da881663d588c85ef75][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing_principal_attachment.client["10"]: Refreshing state... [id=dev_sqa_0002|arn:aws:iot:ap-northeast-1:634518058314:cert/6a8a53f595019607e166825560cc4f91de227e055e31e835de05a3f63f85bac8][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing_principal_attachment.client["14"]: Refreshing state... [id=dev_sqa_0006|arn:aws:iot:ap-northeast-1:634518058314:cert/5e39956a131c8ed7119ddfcf5d9b6f5c93d30366300da8c76252afd43b86789d][0m
+[0m[1mmodule.cpf_clients.aws_iot_thing_principal_attachment.client["9"]: Refreshing state... [id=dev_sqa_0001|arn:aws:iot:ap-northeast-1:634518058314:cert/5a515bfe0ad729053791cc20eebfce263ceb5ad2f92ad0f615a766be577c0ee9][0m
+[0m[1mmodule.cpf_server.aws_iot_thing_principal_attachment.serer: Refreshing state... [id=cpf-server|arn:aws:iot:ap-northeast-1:634518058314:cert/3898f71fef4974263f8320d9f8fcd6f00c0fdc4a23370312a7f0dd64e983e21a][0m
+[0m[1mmodule.cpf_server.aws_iot_policy_attachment.server: Refreshing state... [id=cpf-server-policy|arn:aws:iot:ap-northeast-1:634518058314:cert/3898f71fef4974263f8320d9f8fcd6f00c0fdc4a23370312a7f0dd64e983e21a][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_connect["23"]: Refreshing state... [id=cpf-client-connect-did-E5432E9FCF85EE35EB0444FF1679A0D1A34C5E09|arn:aws:iot:ap-northeast-1:634518058314:cert/7333c3ff7162d81f189f700ba4d901fe6a9c284d900a817cba97040d89fb6c88][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_connect["14"]: Refreshing state... [id=cpf-client-connect-did-7BC9FA684A649B0F4561189F22E5E44CA07A6AB2|arn:aws:iot:ap-northeast-1:634518058314:cert/5e39956a131c8ed7119ddfcf5d9b6f5c93d30366300da8c76252afd43b86789d][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_connect["12"]: Refreshing state... [id=cpf-client-connect-did-5CFB22FAA42B9354527A902C0D1C5E8BD786BC5B|arn:aws:iot:ap-northeast-1:634518058314:cert/b6dcd33977302a5d5e03aafd532e075f4677737f65bc264b8bef56961acb1e3f][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_connect["16"]: Refreshing state... [id=cpf-client-connect-did-A01861EE21E56BC29191DE195CAC1983C0B4374E|arn:aws:iot:ap-northeast-1:634518058314:cert/45571548e67ca12018ec8fbf6dfa2a006982102c0b610bb8d8c983b23fadc392][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_connect["7"]: Refreshing state... [id=cpf-client-connect-did-82611B10C6F16BDF3404725810C0A18532F2212A|arn:aws:iot:ap-northeast-1:634518058314:cert/7bac75152bc4049724e61e5640e92a423afecf5418d8c0547b1809353b3a3215][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_connect["24"]: Refreshing state... [id=cpf-client-connect-did-D227D9F9932E77393DDF94F695D9176743456855|arn:aws:iot:ap-northeast-1:634518058314:cert/58b000356d4a4987d3ef876abdffe06d4717bb33d73edce1b7e095a0187b5127][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_connect["10"]: Refreshing state... [id=cpf-client-connect-did-59DC0E22BF8CD99F5C5C5C05EBD6158446C1F758|arn:aws:iot:ap-northeast-1:634518058314:cert/6a8a53f595019607e166825560cc4f91de227e055e31e835de05a3f63f85bac8][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_connect["1"]: Refreshing state... [id=cpf-client-connect-did-0D27B3DE51F203D5193E9A1943333B20D57DFFF0|arn:aws:iot:ap-northeast-1:634518058314:cert/93a9879c273402b7a6693b7551e13df1c273bf42439e71f66743995d7f19cedb][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_connect["9"]: Refreshing state... [id=cpf-client-connect-did-A4EB16C64D605A5FFBE2D2607E1FE32DB3FDC258|arn:aws:iot:ap-northeast-1:634518058314:cert/5a515bfe0ad729053791cc20eebfce263ceb5ad2f92ad0f615a766be577c0ee9][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_connect["11"]: Refreshing state... [id=cpf-client-connect-did-28ED202C5EF07DC90A7A350C9A9950C92DAC646B|arn:aws:iot:ap-northeast-1:634518058314:cert/fc6ca31bd59b184513990f8fa118d49212d4b402bfe9b7fa4892fcf6668bd787][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_connect["6"]: Refreshing state... [id=cpf-client-connect-did-1205789FDC5C471AB53A51F75DCEEEF8E82B06E8|arn:aws:iot:ap-northeast-1:634518058314:cert/ac8f78ebaf97ea577df1236255f14a43f104f2fd024c330a82c9dcff58cd7301][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_connect["22"]: Refreshing state... [id=cpf-client-connect-did-AB4B8118E942925912F94DE2BE111DCD34D1DEB7|arn:aws:iot:ap-northeast-1:634518058314:cert/cfb4f0fe2750784f9fb13b0f7ff55ca2c159247314fbf135072540637fe2fd98][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_connect["18"]: Refreshing state... [id=cpf-client-connect-did-16522B666ABD257A7D62A3FD3CA40603367547F7|arn:aws:iot:ap-northeast-1:634518058314:cert/34005a99d147d066ed59fd4875011de9a3e1bd3a1132ce60872d01850c29b13b][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_connect["8"]: Refreshing state... [id=cpf-client-connect-did-CDA0C6E32E1C61968991DE460B9E1B5006940DB6|arn:aws:iot:ap-northeast-1:634518058314:cert/fb4e958ea3821aaffb3790967e1e006fe42c5072c75b733ccddb94853330164d][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_connect["20"]: Refreshing state... [id=cpf-client-connect-did-4DF192C63A768F67F69E6EAB8E94BFFA4B833D68|arn:aws:iot:ap-northeast-1:634518058314:cert/afdc5e1dc0ed44cade7111160744a7f2110d684f248abcbd45f7d33dc6e3dc64][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_connect["15"]: Refreshing state... [id=cpf-client-connect-did-EDDEE26F40B8283B34E19FA2141FC7C70E9FB508|arn:aws:iot:ap-northeast-1:634518058314:cert/dc8f7918e62556c04f10210fef72ca717b5dd1b917335e94a9fb659cac855d78][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_connect["26"]: Refreshing state... [id=cpf-client-connect-did-B68E97BCB4B3CF0ED887F991DD35FA7878309306|arn:aws:iot:ap-northeast-1:634518058314:cert/9e030bba9c3d751b963e632e4d9064c1d021ba97dfab8b37f238bf0cf03b6252][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_connect["3"]: Refreshing state... [id=cpf-client-connect-did-CC28349626977C995122436086D62268A958B995|arn:aws:iot:ap-northeast-1:634518058314:cert/aaf9c16ef5a87ba72694496403d7e9ea0a7782d225be2da881663d588c85ef75][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_connect["21"]: Refreshing state... [id=cpf-client-connect-did-CED863B12A33FD7EA35D8964A7832485A176EE0C|arn:aws:iot:ap-northeast-1:634518058314:cert/e465eb9d6f67cef15223a6cdcab4898d7b79ae85e8a64bfd7854c8f24e15a16c][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_connect["25"]: Refreshing state... [id=cpf-client-connect-did-8AC789CF513B0E3178C7AA4527B17C90030B045F|arn:aws:iot:ap-northeast-1:634518058314:cert/4165a91247b6217f555e928c1c39820ce9aa1c37015097518fe9e64958bec787][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_connect["2"]: Refreshing state... [id=cpf-client-connect-did-7288875330B0B1373BF675A29DC318307578AE50|arn:aws:iot:ap-northeast-1:634518058314:cert/79ab647aece04d8c550702277cb949580984c22e60411f863d7f20db507154c6][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_connect["5"]: Refreshing state... [id=cpf-client-connect-did-3B9C7A6E41F46BF7857CD81A763DA4B76696D01B|arn:aws:iot:ap-northeast-1:634518058314:cert/085dd145c23f6f316e2a4feed4931f9243b6d397034a99b83414ce21ab413b57][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_connect["19"]: Refreshing state... [id=cpf-client-connect-did-6D6F4ACE922C6B1677D9D0256F2AD600F6067FB9|arn:aws:iot:ap-northeast-1:634518058314:cert/d75b0af6038ccf5cadaa22ce63f3c1d69f41b97961d9c8f867379b7996f755e1][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_connect["17"]: Refreshing state... [id=cpf-client-connect-did-DA5971CFD88BC5A430319907B271BD577C08BBD0|arn:aws:iot:ap-northeast-1:634518058314:cert/b01acb867a27f7dbcdcd16d5b2e7fc8141b122522e5a742e9ec1f132379cdb08][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_connect["13"]: Refreshing state... [id=cpf-client-connect-did-70966FBC86347248C4846888DB32C9099B0BAA11|arn:aws:iot:ap-northeast-1:634518058314:cert/f30204ec32c9095f81a6c1c45fd1e3c97099f70011fe38b9050cfe8a1cbbe6c7][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_connect["27"]: Refreshing state... [id=cpf-client-connect-did-76CE640F61BB74790D55BF4F65EBE23174AF51ED|arn:aws:iot:ap-northeast-1:634518058314:cert/476a9ca2e8a61cf1bccb85c11f4298cda2c242895b28e0f6bcc5edb8dfa762db][0m
+[0m[1mmodule.cpf_clients.aws_iot_policy_attachment.client_connect["4"]: Refreshing state... [id=cpf-client-connect-did-D98C7180E0C89A5608975E3460586927D792D03E|arn:aws:iot:ap-northeast-1:634518058314:cert/7ac6a93260c30d40b7e8dd3856629ef4d535aea64d2af0a72d204528211975d4][0m
+[0m[1mmodule.cpf_server.aws_cloudwatch_metric_alarm.app_log_error_count: Refreshing state... [id=/aip/cpf/app-ErrorCount][0m
+[0m[1mmodule.cpf_server.aws_cloudwatch_metric_alarm.iot_log_error_count: Refreshing state... [id=AWSIotLogsV2-ErrorCount][0m
+[0m[1mmodule.file_server.aws_iam_role_policy_attachment.restores: Refreshing state... [id=aip-backup-tcn-contents-20210922102121229500000001][0m
+[0m[1mmodule.file_server.aws_iam_role_policy_attachment.backup: Refreshing state... [id=aip-backup-tcn-contents-20210922102121236600000002][0m
+[0m[1mmodule.cpf_server.aws_iam_role_policy_attachment.ecs_task_execution: Refreshing state... [id=EcsTaskExecutionRole-20210216031057943300000001][0m
+[0m[1maws_security_group.private-tps-dev: Refreshing state... [id=sg-0195d59405259f4bd][0m
+[0m[1maws_lb_target_group.iot_nlb: Refreshing state... [id=arn:aws:elasticloadbalancing:ap-northeast-1:634518058314:targetgroup/iot-data/c3eb60426940fcdd][0m
+[0m[1maws_vpc_endpoint.iot_data: Refreshing state... [id=vpce-057ba160c3affaacd][0m
+[0m[1mmodule.cpf_server.aws_lb_target_group.nlb: Refreshing state... [id=arn:aws:elasticloadbalancing:ap-northeast-1:634518058314:targetgroup/cpf-public/d60ac34b194c4f83][0m
+[0m[1mmodule.cpf_server.aws_lb_target_group.alb: Refreshing state... [id=arn:aws:elasticloadbalancing:ap-northeast-1:634518058314:targetgroup/cpf-private/ddc7f4dedf1be58f][0m
+[0m[1mmodule.cpf_server.aws_security_group.cpf: Refreshing state... [id=sg-046189e60a757e8ee][0m
+[0m[1mmodule.file_server.aws_security_group.smb: Refreshing state... [id=sg-005054ece3801f828][0m
+[0m[1mmodule.file_server.aws_ebs_volume.share: Refreshing state... [id=vol-01479f31742e90a52][0m
+[0m[1mmodule.file_server.aws_lb_target_group.nlb: Refreshing state... [id=arn:aws:elasticloadbalancing:ap-northeast-1:634518058314:targetgroup/tcn-contents-public/bd9cde5c1eb86023][0m
+[0m[1maws_lb.iot_nlb: Refreshing state... [id=arn:aws:elasticloadbalancing:ap-northeast-1:634518058314:loadbalancer/net/iot-data/f16718f65cd5cce4][0m
+[0m[1mmodule.active_directory.aws_instance.instance: Refreshing state... [id=i-093f03aa77d53cdeb][0m
+[0m[1mmodule.file_server.aws_lb.nlb: Refreshing state... [id=arn:aws:elasticloadbalancing:ap-northeast-1:634518058314:loadbalancer/net/tcn-contents-public/e0e174ca45c8c109][0m
+[0m[1mmodule.cpf_clients.aws_s3_bucket.client: Refreshing state... [id=cpf-clients-634518058314][0m
+[0m[1mmodule.cpf_server.aws_lb.nlb: Refreshing state... [id=arn:aws:elasticloadbalancing:ap-northeast-1:634518058314:loadbalancer/net/cpf-public/85ed5864d9480dcf][0m
+[0m[1mmodule.cpf_server.aws_lb.alb: Refreshing state... [id=arn:aws:elasticloadbalancing:ap-northeast-1:634518058314:loadbalancer/app/cpf-private/c094ee43538b7476][0m
+[0m[1mmodule.cpf_server.aws_security_group.rds: Refreshing state... [id=sg-0e9dce5b2b1b2ab2f][0m
+[0m[1mmodule.cpf_server.aws_security_group.redis: Refreshing state... [id=sg-0bc765546dc18e510][0m
+[0m[1mmodule.cpf_server.module.lambda_notify_alarm.aws_lambda_function.function: Refreshing state... [id=notify-alarm-cpf][0m
+[0m[1mmodule.file_server.aws_instance.instance: Refreshing state... [id=i-019be6bfaf020cf2b][0m
+[0m[1mmodule.file_server.aws_backup_selection.selection: Refreshing state... [id=c5380c85-cb4d-4dfe-89e0-bd67d79a8f7d][0m
+[0m[1maws_lb_target_group_attachment.iot_nlb["eni-01cb191fc927934d4"]: Refreshing state... [id=arn:aws:elasticloadbalancing:ap-northeast-1:634518058314:targetgroup/iot-data/c3eb60426940fcdd-20220131164125479700000001][0m
+[0m[1maws_lb_listener.iot_nlb: Refreshing state... [id=arn:aws:elasticloadbalancing:ap-northeast-1:634518058314:listener/net/iot-data/f16718f65cd5cce4/9296ceeed2c98b9a][0m
+[0m[1mmodule.file_server.aws_lb_listener.nlb: Refreshing state... [id=arn:aws:elasticloadbalancing:ap-northeast-1:634518058314:listener/net/tcn-contents-public/e0e174ca45c8c109/53fd1054bd00cdc9][0m
+[0m[1mmodule.cpf_server.module.lambda_notify_alarm.aws_iam_policy.policy: Refreshing state... [id=arn:aws:iam::634518058314:policy/lambda-notify-alarm-cpf-policy][0m
+[0m[1mmodule.cpf_server.aws_lb_listener.nlb: Refreshing state... [id=arn:aws:elasticloadbalancing:ap-northeast-1:634518058314:listener/net/cpf-public/85ed5864d9480dcf/c2654bc8e8e74069][0m
+[0m[1mmodule.cpf_server.aws_cloudwatch_metric_alarm.nlb_healthy_host_count: Refreshing state... [id=cpf-nlb-HealthyHostCount][0m
+[0m[1mmodule.cpf_server.aws_db_instance.db_instance: Refreshing state... [id=cpf][0m
+[0m[1mmodule.cpf_server.aws_lb_listener.alb: Refreshing state... [id=arn:aws:elasticloadbalancing:ap-northeast-1:634518058314:listener/app/cpf-private/c094ee43538b7476/14497ed0c79f4fba][0m
+[0m[1mmodule.cpf_server.module.lambda_notify_alarm.aws_sns_topic_subscription.subscription: Refreshing state... [id=arn:aws:sns:ap-northeast-1:634518058314:cpf-cloudwatch-alarms-to-slack:8152405c-b49a-401e-913c-54789a4b4531][0m
+[0m[1mmodule.cpf_server.aws_elasticache_replication_group.redis: Refreshing state... [id=cpf][0m
+[0m[1mmodule.cpf_server.module.lambda_notify_alarm.aws_lambda_permission.sns: Refreshing state... [id=AllowExecutionFromSNS][0m
+[0m[1mmodule.cpf_clients.aws_s3_bucket_public_access_block.client: Refreshing state... [id=cpf-clients-634518058314][0m
+[0m[1mmodule.cpf_clients.aws_s3_bucket_object.client_file["12"]: Refreshing state... [id=dev_sqa_0004.zip][0m
+[0m[1mmodule.cpf_clients.aws_s3_bucket_object.client_file["11"]: Refreshing state... [id=dev_sqa_0003.zip][0m
+[0m[1mmodule.cpf_clients.aws_s3_bucket_object.client_file["27"]: Refreshing state... [id=dev_bxd_0003.zip][0m
+[0m[1mmodule.cpf_clients.aws_s3_bucket_object.client_file["8"]: Refreshing state... [id=dev_trace_0004.zip][0m
+[0m[1mmodule.cpf_clients.aws_s3_bucket_object.client_file["21"]: Refreshing state... [id=dev_sqa_0013.zip][0m
+[0m[1mmodule.cpf_clients.aws_s3_bucket_object.client_file["24"]: Refreshing state... [id=dev_sqa_0016.zip][0m
+[0m[1mmodule.cpf_clients.aws_s3_bucket_object.client_file["1"]: Refreshing state... [id=dev_test_0001.zip][0m
+[0m[1mmodule.cpf_clients.aws_s3_bucket_object.client_file["10"]: Refreshing state... [id=dev_sqa_0002.zip][0m
+[0m[1mmodule.cpf_clients.aws_s3_bucket_object.client_file["6"]: Refreshing state... [id=dev_trace_0002.zip][0m
+[0m[1mmodule.cpf_clients.aws_s3_bucket_object.client_file["14"]: Refreshing state... [id=dev_sqa_0006.zip][0m
+[0m[1mmodule.cpf_clients.aws_s3_bucket_object.client_file["13"]: Refreshing state... [id=dev_sqa_0005.zip][0m
+[0m[1mmodule.cpf_clients.aws_s3_bucket_object.client_file["7"]: Refreshing state... [id=dev_trace_0003.zip][0m
+[0m[1mmodule.cpf_clients.aws_s3_bucket_object.client_file["18"]: Refreshing state... [id=dev_sqa_0010.zip][0m
+[0m[1mmodule.cpf_clients.aws_s3_bucket_object.client_file["19"]: Refreshing state... [id=dev_sqa_0011.zip][0m
+[0m[1mmodule.cpf_clients.aws_s3_bucket_object.client_file["17"]: Refreshing state... [id=dev_sqa_0009.zip][0m
+[0m[1mmodule.cpf_clients.aws_s3_bucket_object.client_file["20"]: Refreshing state... [id=dev_sqa_0012.zip][0m
+[0m[1mmodule.cpf_clients.aws_s3_bucket_object.client_file["22"]: Refreshing state... [id=dev_sqa_0014.zip][0m
+[0m[1mmodule.cpf_clients.aws_s3_bucket_object.client_file["26"]: Refreshing state... [id=dev_bxd_0002.zip][0m
+[0m[1mmodule.cpf_clients.aws_s3_bucket_object.client_file["16"]: Refreshing state... [id=dev_sqa_0008.zip][0m
+[0m[1mmodule.cpf_clients.aws_s3_bucket_object.client_file["9"]: Refreshing state... [id=dev_sqa_0001.zip][0m
+[0m[1mmodule.cpf_clients.aws_s3_bucket_object.client_file["4"]: Refreshing state... [id=dev_test_0004.zip][0m
+[0m[1mmodule.cpf_clients.aws_s3_bucket_object.client_file["23"]: Refreshing state... [id=dev_sqa_0015.zip][0m
+[0m[1mmodule.cpf_clients.aws_s3_bucket_object.client_file["2"]: Refreshing state... [id=dev_test_0002.zip][0m
+[0m[1mmodule.cpf_clients.aws_s3_bucket_object.client_file["25"]: Refreshing state... [id=dev_bxd_0001.zip][0m
+[0m[1mmodule.cpf_clients.aws_s3_bucket_object.client_file["3"]: Refreshing state... [id=dev_test_0003.zip][0m
+[0m[1mmodule.cpf_clients.aws_s3_bucket_object.client_file["5"]: Refreshing state... [id=dev_trace_0001.zip][0m
+[0m[1mmodule.cpf_clients.aws_s3_bucket_object.client_file["15"]: Refreshing state... [id=dev_sqa_0007.zip][0m
+[0m[1mmodule.active_directory.aws_vpc_dhcp_options.options: Refreshing state... [id=dopt-0a229e824019b0cb2][0m
+[0m[1mmodule.cpf_server.module.lambda_notify_alarm.aws_iam_role_policy_attachment.role_policy: Refreshing state... [id=lambda-notify-alarm-cpf-role-20210510165550693600000001][0m
+[0m[1mmodule.file_server.aws_volume_attachment.share: Refreshing state... [id=vai-4072555695][0m
+[0m[1mmodule.file_server.aws_lb_target_group_attachment.nlb: Refreshing state... [id=arn:aws:elasticloadbalancing:ap-northeast-1:634518058314:targetgroup/tcn-contents-public/bd9cde5c1eb86023-20210922100527922100000001][0m
+[0m[1maws_route53_record.iot_nlb: Refreshing state... [id=Z0903902E6W6I62YAZZ9_mqtt.dev.tps.ai-partners.jp_A][0m
+[0m[1mmodule.active_directory.aws_route53_record.instance_record: Refreshing state... [id=Z03743153K4N043LDSX6Y_active-directory.dev.tps.ai-partners.jp_A][0m
+[0m[1mmodule.cpf_server.aws_route53_record.alb: Refreshing state... [id=Z03743153K4N043LDSX6Y_alb-cpf.dev.tps.ai-partners.jp_A][0m
+[0m[1mmodule.file_server.aws_route53_record.nlb: Refreshing state... [id=Z0903902E6W6I62YAZZ9_nlb-tcn-contents.dev.tps.ai-partners.jp_A][0m
+[0m[1mmodule.file_server.aws_route53_record.instance_record: Refreshing state... [id=Z03743153K4N043LDSX6Y_tcn-contents.dev.tps.ai-partners.jp_A][0m
+[0m[1mmodule.cpf_server.aws_route53_record.nlb: Refreshing state... [id=Z0903902E6W6I62YAZZ9_stun.dev.tps.ai-partners.jp_A][0m
+[0m[1mmodule.active_directory.aws_vpc_dhcp_options_association.association: Refreshing state... [id=dopt-0a229e824019b0cb2-vpc-02aeaeb16996ec359][0m
+[0m[1mmodule.cpf_server.aws_elasticache_cluster.redis: Refreshing state... [id=cpf][0m
+[0m[1mmodule.cpf_server.aws_ecs_task_definition.task_definition: Refreshing state... [id=cpf][0m
+[0m[1mmodule.cpf_server.aws_ecs_service.service: Refreshing state... [id=arn:aws:ecs:ap-northeast-1:634518058314:service/cpf/cpf][0m
+[0m[1mmodule.cpf_server.aws_appautoscaling_target.target: Refreshing state... [id=service/cpf/cpf][0m
+[0m[1mmodule.cpf_server.aws_appautoscaling_policy.policy: Refreshing state... [id=cpf][0m
+[0m
+[1m[36mNote:[0m[1m Objects have changed outside of Terraform[0m
+
+[0mTerraform detected the following changes made outside of Terraform since the
+last "terraform apply":
+
+[1m  # module.cpf_server.aws_db_instance.db_instance[0m has changed[0m[0m
+[0m  [33m~[0m[0m resource "aws_db_instance" "db_instance" {
+        [1m[0mid[0m[0m                                    = "cpf"
+      [33m~[0m [0m[1m[0mlatest_restorable_time[0m[0m                = "2022-04-01T06:44:30Z" [33m->[0m [0m"2022-04-01T12:14:39Z"
+        [1m[0mtags[0m[0m                                  = {}
+        [90m# (49 unchanged attributes hidden)[0m[0m
+    }
+
+
+Unless you have made equivalent changes to your configuration, or ignored the
+relevant attributes using ignore_changes, the following plan may include
+actions to undo or respond to these changes.
+[90m
+─────────────────────────────────────────────────────────────────────────────[0m
+
+Terraform used the selected providers to generate the following execution
+plan. Resource actions are indicated with the following symbols:
+  [33m~[0m update in-place
+  [31m-[0m destroy
+[31m-[0m/[32m+[0m destroy and then create replacement
+ [36m<=[0m read (data resources)
+[0m
+Terraform will perform the following actions:
+
+[1m  # module.cpf_clients.data.archive_file.client_files["1"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "archive_file" "client_files"  {
+      [33m~[0m [0m[1m[0mid[0m[0m                  = "e6279656934b1fdc747fd5983c0827cd198f3b24" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_base64sha256[0m[0m = "BlL6FIGcM2BmPjA+C2jItwL4rWZlHfVvIWGwCd0VDQU=" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_md5[0m[0m          = "fc4b0a9141dda311af1cb7c65c398252" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_sha[0m[0m          = "e6279656934b1fdc747fd5983c0827cd198f3b24" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_size[0m[0m         = 3965 [33m->[0m [0m(known after apply)
+        [90m# (2 unchanged attributes hidden)[0m[0m
+
+        source {
+          # At least one attribute in this block is (or was) sensitive,
+          # so its contents will not be displayed.
+        }
+    }
+
+[1m  # module.cpf_clients.data.archive_file.client_files["10"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "archive_file" "client_files"  {
+      [33m~[0m [0m[1m[0mid[0m[0m                  = "dbd9d44d3a2d2958ffe392ad043c199460a92145" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_base64sha256[0m[0m = "6zkVsZbvPaMIFQhLc+nkBPZQcWFHttMgNGoNCZRUxh0=" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_md5[0m[0m          = "dcccc87b3b928e3620bf551a1e896b1b" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_sha[0m[0m          = "dbd9d44d3a2d2958ffe392ad043c199460a92145" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_size[0m[0m         = 3978 [33m->[0m [0m(known after apply)
+        [90m# (2 unchanged attributes hidden)[0m[0m
+
+        source {
+          # At least one attribute in this block is (or was) sensitive,
+          # so its contents will not be displayed.
+        }
+    }
+
+[1m  # module.cpf_clients.data.archive_file.client_files["11"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "archive_file" "client_files"  {
+      [33m~[0m [0m[1m[0mid[0m[0m                  = "933e5747977aa131b16efb62b86c5f9c54bc919d" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_base64sha256[0m[0m = "ly+GzRqr4FpXAF9dv3QW9A0+lSzIyTYyoU0hBcIM4uQ=" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_md5[0m[0m          = "527af43ea730accf4232793b1c2ae2ba" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_sha[0m[0m          = "933e5747977aa131b16efb62b86c5f9c54bc919d" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_size[0m[0m         = 3975 [33m->[0m [0m(known after apply)
+        [90m# (2 unchanged attributes hidden)[0m[0m
+
+        source {
+          # At least one attribute in this block is (or was) sensitive,
+          # so its contents will not be displayed.
+        }
+    }
+
+[1m  # module.cpf_clients.data.archive_file.client_files["12"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "archive_file" "client_files"  {
+      [33m~[0m [0m[1m[0mid[0m[0m                  = "b22f6098a53bd5e697b204fb8da3daacb9174b21" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_base64sha256[0m[0m = "x31kzYNjubBETac6O36R3Fgkd68ewlmtKMiM+9Kypfo=" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_md5[0m[0m          = "f18bcd1d57b6e8e908723044bd527ff0" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_sha[0m[0m          = "b22f6098a53bd5e697b204fb8da3daacb9174b21" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_size[0m[0m         = 3975 [33m->[0m [0m(known after apply)
+        [90m# (2 unchanged attributes hidden)[0m[0m
+
+        source {
+          # At least one attribute in this block is (or was) sensitive,
+          # so its contents will not be displayed.
+        }
+    }
+
+[1m  # module.cpf_clients.data.archive_file.client_files["13"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "archive_file" "client_files"  {
+      [33m~[0m [0m[1m[0mid[0m[0m                  = "52f2dbf4807b910d9d35df833e7772351d2e92fd" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_base64sha256[0m[0m = "Pw7KdFBgUSrbXtmiZFxvnxMqzOyDsucIggJqh2hgdeE=" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_md5[0m[0m          = "d478af409adcb7c99f575b621e8a8bbe" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_sha[0m[0m          = "52f2dbf4807b910d9d35df833e7772351d2e92fd" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_size[0m[0m         = 3979 [33m->[0m [0m(known after apply)
+        [90m# (2 unchanged attributes hidden)[0m[0m
+
+        source {
+          # At least one attribute in this block is (or was) sensitive,
+          # so its contents will not be displayed.
+        }
+    }
+
+[1m  # module.cpf_clients.data.archive_file.client_files["14"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "archive_file" "client_files"  {
+      [33m~[0m [0m[1m[0mid[0m[0m                  = "efc48de21fe8274ab754eea013c2679f413d16bf" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_base64sha256[0m[0m = "6ESy1P/Zr0d/63PR4a286ibP8I6J3/SP7FWt0TNyDCU=" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_md5[0m[0m          = "1dec1a2fada3e85beff7c0b8b7576e95" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_sha[0m[0m          = "efc48de21fe8274ab754eea013c2679f413d16bf" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_size[0m[0m         = 3973 [33m->[0m [0m(known after apply)
+        [90m# (2 unchanged attributes hidden)[0m[0m
+
+        source {
+          # At least one attribute in this block is (or was) sensitive,
+          # so its contents will not be displayed.
+        }
+    }
+
+[1m  # module.cpf_clients.data.archive_file.client_files["15"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "archive_file" "client_files"  {
+      [33m~[0m [0m[1m[0mid[0m[0m                  = "04a9056da217e1b827ab4d20316e6578f1350214" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_base64sha256[0m[0m = "Ovvn4Tkl9ABq16i5moyjbYu3NNLwjKS8DTLZBsWAvnk=" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_md5[0m[0m          = "118f8e49c0d5f6ad74d3298c7899b720" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_sha[0m[0m          = "04a9056da217e1b827ab4d20316e6578f1350214" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_size[0m[0m         = 3973 [33m->[0m [0m(known after apply)
+        [90m# (2 unchanged attributes hidden)[0m[0m
+
+        source {
+          # At least one attribute in this block is (or was) sensitive,
+          # so its contents will not be displayed.
+        }
+    }
+
+[1m  # module.cpf_clients.data.archive_file.client_files["16"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "archive_file" "client_files"  {
+      [33m~[0m [0m[1m[0mid[0m[0m                  = "a795a2f2993d662e10d6019be3a13eb56f786f16" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_base64sha256[0m[0m = "mnUUptiMh1XTJTaH3l8rUObiQcRGOi0QViJlJbQXW+4=" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_md5[0m[0m          = "9162da40936da7d3d5abab7eb42f74dc" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_sha[0m[0m          = "a795a2f2993d662e10d6019be3a13eb56f786f16" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_size[0m[0m         = 3977 [33m->[0m [0m(known after apply)
+        [90m# (2 unchanged attributes hidden)[0m[0m
+
+        source {
+          # At least one attribute in this block is (or was) sensitive,
+          # so its contents will not be displayed.
+        }
+    }
+
+[1m  # module.cpf_clients.data.archive_file.client_files["17"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "archive_file" "client_files"  {
+      [33m~[0m [0m[1m[0mid[0m[0m                  = "2a9e520b526015128dc96fb048bffab82ae4d8b4" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_base64sha256[0m[0m = "rj5I4mu036N/syDuEvAGROFy14NIB9mZgHLLRokdRac=" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_md5[0m[0m          = "b509e0994f8100755dd40d5c482412c7" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_sha[0m[0m          = "2a9e520b526015128dc96fb048bffab82ae4d8b4" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_size[0m[0m         = 3978 [33m->[0m [0m(known after apply)
+        [90m# (2 unchanged attributes hidden)[0m[0m
+
+        source {
+          # At least one attribute in this block is (or was) sensitive,
+          # so its contents will not be displayed.
+        }
+    }
+
+[1m  # module.cpf_clients.data.archive_file.client_files["18"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "archive_file" "client_files"  {
+      [33m~[0m [0m[1m[0mid[0m[0m                  = "cf67b016beee663cae2188e290dae6eb47c2b8cf" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_base64sha256[0m[0m = "an31ZHOVKADW4x17bZPCON9/Hs96UkStRukvU5131sA=" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_md5[0m[0m          = "db03651a231181dc12b389b33d55691b" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_sha[0m[0m          = "cf67b016beee663cae2188e290dae6eb47c2b8cf" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_size[0m[0m         = 3975 [33m->[0m [0m(known after apply)
+        [90m# (2 unchanged attributes hidden)[0m[0m
+
+        source {
+          # At least one attribute in this block is (or was) sensitive,
+          # so its contents will not be displayed.
+        }
+    }
+
+[1m  # module.cpf_clients.data.archive_file.client_files["19"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "archive_file" "client_files"  {
+      [33m~[0m [0m[1m[0mid[0m[0m                  = "63a022c549517aca42a828c431f6e5d01cf4364d" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_base64sha256[0m[0m = "kKTqXSnw0xDrCnIy/8BOhhjMtAuLFgvAyahEA7DVpl8=" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_md5[0m[0m          = "7fcd67eaff526f3099d81eaa1ca4c719" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_sha[0m[0m          = "63a022c549517aca42a828c431f6e5d01cf4364d" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_size[0m[0m         = 3972 [33m->[0m [0m(known after apply)
+        [90m# (2 unchanged attributes hidden)[0m[0m
+
+        source {
+          # At least one attribute in this block is (or was) sensitive,
+          # so its contents will not be displayed.
+        }
+    }
+
+[1m  # module.cpf_clients.data.archive_file.client_files["2"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "archive_file" "client_files"  {
+      [33m~[0m [0m[1m[0mid[0m[0m                  = "257f311f9a7290adf8e9d91e91d7c0870d41a210" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_base64sha256[0m[0m = "cN1pzsMObBYqeuW9PX3OVHaqjIuD+e9fWRD3YHLu7lY=" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_md5[0m[0m          = "e8e1688306a25cd6b6a6a07a7ad5dfae" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_sha[0m[0m          = "257f311f9a7290adf8e9d91e91d7c0870d41a210" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_size[0m[0m         = 3969 [33m->[0m [0m(known after apply)
+        [90m# (2 unchanged attributes hidden)[0m[0m
+
+        source {
+          # At least one attribute in this block is (or was) sensitive,
+          # so its contents will not be displayed.
+        }
+    }
+
+[1m  # module.cpf_clients.data.archive_file.client_files["20"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "archive_file" "client_files"  {
+      [33m~[0m [0m[1m[0mid[0m[0m                  = "5c74479e2772de4e43e73408b85c947bc69587ab" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_base64sha256[0m[0m = "MGJFzV4cPgOJxRQoSviBPsRAG8e7Gi8FdEmyMTQRQhQ=" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_md5[0m[0m          = "07ced865698fcf4de8702c7dd585ad48" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_sha[0m[0m          = "5c74479e2772de4e43e73408b85c947bc69587ab" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_size[0m[0m         = 3968 [33m->[0m [0m(known after apply)
+        [90m# (2 unchanged attributes hidden)[0m[0m
+
+        source {
+          # At least one attribute in this block is (or was) sensitive,
+          # so its contents will not be displayed.
+        }
+    }
+
+[1m  # module.cpf_clients.data.archive_file.client_files["21"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "archive_file" "client_files"  {
+      [33m~[0m [0m[1m[0mid[0m[0m                  = "13da1e21168ba7507d331792525137a1b4f0cca9" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_base64sha256[0m[0m = "f+xhlVHXh8VQyQvNSdLbEIHfyv5bPmyV9ibAPnzQwOg=" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_md5[0m[0m          = "658f35fe4c21ae71d39dafa2a6386519" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_sha[0m[0m          = "13da1e21168ba7507d331792525137a1b4f0cca9" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_size[0m[0m         = 3979 [33m->[0m [0m(known after apply)
+        [90m# (2 unchanged attributes hidden)[0m[0m
+
+        source {
+          # At least one attribute in this block is (or was) sensitive,
+          # so its contents will not be displayed.
+        }
+    }
+
+[1m  # module.cpf_clients.data.archive_file.client_files["22"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "archive_file" "client_files"  {
+      [33m~[0m [0m[1m[0mid[0m[0m                  = "fda8841f415a28fedb8dcf7bc53c2eeadee502e7" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_base64sha256[0m[0m = "lc54RHo/ceMQD9LFlO6M87Y7L0rsIO7Tbl5d29IC6hU=" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_md5[0m[0m          = "3c71e5cb17bb726ade3fdfbb9242f23e" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_sha[0m[0m          = "fda8841f415a28fedb8dcf7bc53c2eeadee502e7" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_size[0m[0m         = 3974 [33m->[0m [0m(known after apply)
+        [90m# (2 unchanged attributes hidden)[0m[0m
+
+        source {
+          # At least one attribute in this block is (or was) sensitive,
+          # so its contents will not be displayed.
+        }
+    }
+
+[1m  # module.cpf_clients.data.archive_file.client_files["23"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "archive_file" "client_files"  {
+      [33m~[0m [0m[1m[0mid[0m[0m                  = "5bf69604000b4c4040e6ba23b4f80640d0446fa6" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_base64sha256[0m[0m = "IeGfU9H5yrRRG3Jpoc4qEeaIph0aNaVerzazJqosYT8=" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_md5[0m[0m          = "2bcd99db8eda856b63a2e4d33474c767" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_sha[0m[0m          = "5bf69604000b4c4040e6ba23b4f80640d0446fa6" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_size[0m[0m         = 3979 [33m->[0m [0m(known after apply)
+        [90m# (2 unchanged attributes hidden)[0m[0m
+
+        source {
+          # At least one attribute in this block is (or was) sensitive,
+          # so its contents will not be displayed.
+        }
+    }
+
+[1m  # module.cpf_clients.data.archive_file.client_files["24"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "archive_file" "client_files"  {
+      [33m~[0m [0m[1m[0mid[0m[0m                  = "6415bcc831553c434571814d5e4ac88c09571f8e" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_base64sha256[0m[0m = "/VKoid8AsdtoYD4utkNsY9O1F8qxp161As9UMZxFNaU=" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_md5[0m[0m          = "f2f3693b2bf74f95ce02dd5de060757d" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_sha[0m[0m          = "6415bcc831553c434571814d5e4ac88c09571f8e" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_size[0m[0m         = 3975 [33m->[0m [0m(known after apply)
+        [90m# (2 unchanged attributes hidden)[0m[0m
+
+        source {
+          # At least one attribute in this block is (or was) sensitive,
+          # so its contents will not be displayed.
+        }
+    }
+
+[1m  # module.cpf_clients.data.archive_file.client_files["25"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "archive_file" "client_files"  {
+      [33m~[0m [0m[1m[0mid[0m[0m                  = "57c938bd101a7c0334ce46e7e2ac968f11b906c5" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_base64sha256[0m[0m = "Pk1egG/Lir6h/U2chM1LMGp72dffq6QJ5zXLjc0Iij4=" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_md5[0m[0m          = "e7f53f966c052d225e8ad457f49b9526" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_sha[0m[0m          = "57c938bd101a7c0334ce46e7e2ac968f11b906c5" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_size[0m[0m         = 3981 [33m->[0m [0m(known after apply)
+        [90m# (2 unchanged attributes hidden)[0m[0m
+
+        source {
+          # At least one attribute in this block is (or was) sensitive,
+          # so its contents will not be displayed.
+        }
+    }
+
+[1m  # module.cpf_clients.data.archive_file.client_files["26"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "archive_file" "client_files"  {
+      [33m~[0m [0m[1m[0mid[0m[0m                  = "6bfe0d1d7702f1b744c0fd4071eec0543d2919a1" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_base64sha256[0m[0m = "TSQTbQRtu1OdyJksQfBxvmOoNGEZC5MDjC5DNGZU0Tk=" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_md5[0m[0m          = "b1572071c46f8837ca12762f44f50b1c" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_path[0m[0m         = "./.terraform/tmp/dev_bxd_0002.zip" [33m->[0m [0m"./.terraform/tmp/dev_bxd_0003.zip"
+      [33m~[0m [0m[1m[0moutput_sha[0m[0m          = "6bfe0d1d7702f1b744c0fd4071eec0543d2919a1" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_size[0m[0m         = 3975 [33m->[0m [0m(known after apply)
+        [90m# (1 unchanged attribute hidden)[0m[0m
+
+        source {
+          # At least one attribute in this block is (or was) sensitive,
+          # so its contents will not be displayed.
+        }
+    }
+
+[1m  # module.cpf_clients.data.archive_file.client_files["3"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "archive_file" "client_files"  {
+      [33m~[0m [0m[1m[0mid[0m[0m                  = "9e87c03979739dfc4c05d3c6dc7640263bdc7025" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_base64sha256[0m[0m = "jDQanYGZnt4aikMJA+gkf69hkULiz9Q8l5JicfSHmCA=" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_md5[0m[0m          = "ff5da03efcdb7206962f998f0eb58e54" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_sha[0m[0m          = "9e87c03979739dfc4c05d3c6dc7640263bdc7025" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_size[0m[0m         = 3979 [33m->[0m [0m(known after apply)
+        [90m# (2 unchanged attributes hidden)[0m[0m
+
+        source {
+          # At least one attribute in this block is (or was) sensitive,
+          # so its contents will not be displayed.
+        }
+    }
+
+[1m  # module.cpf_clients.data.archive_file.client_files["4"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "archive_file" "client_files"  {
+      [33m~[0m [0m[1m[0mid[0m[0m                  = "a74be80c6913a7d5121ab03efc66be94c58d9085" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_base64sha256[0m[0m = "KR5zowOUXx7CeNbulKqwL6d6feeVE9Dt+F4qb3qoGnU=" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_md5[0m[0m          = "d0a2e3760b797054abbcee742d5c5ee7" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_sha[0m[0m          = "a74be80c6913a7d5121ab03efc66be94c58d9085" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_size[0m[0m         = 3978 [33m->[0m [0m(known after apply)
+        [90m# (2 unchanged attributes hidden)[0m[0m
+
+        source {
+          # At least one attribute in this block is (or was) sensitive,
+          # so its contents will not be displayed.
+        }
+    }
+
+[1m  # module.cpf_clients.data.archive_file.client_files["5"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "archive_file" "client_files"  {
+      [33m~[0m [0m[1m[0mid[0m[0m                  = "82bcf6f76fcf7a8993195e2418f4887d9f9e977a" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_base64sha256[0m[0m = "7LVnOUt4PPjI4bmJpFGl+1Rhq92Zrc0yNVl/lc2uP7o=" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_md5[0m[0m          = "f803233fc12657bfd8454848c92216fc" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_sha[0m[0m          = "82bcf6f76fcf7a8993195e2418f4887d9f9e977a" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_size[0m[0m         = 3981 [33m->[0m [0m(known after apply)
+        [90m# (2 unchanged attributes hidden)[0m[0m
+
+        source {
+          # At least one attribute in this block is (or was) sensitive,
+          # so its contents will not be displayed.
+        }
+    }
+
+[1m  # module.cpf_clients.data.archive_file.client_files["6"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "archive_file" "client_files"  {
+      [33m~[0m [0m[1m[0mid[0m[0m                  = "92fb18765bb804959d45a4348d4cf8fc7921d8c8" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_base64sha256[0m[0m = "PrJ3/XQnm7XUU7r2mmdkea1ZGxpnN6h5icfhmqByJXU=" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_md5[0m[0m          = "195216884e06fcd5dc8eaa83759020cd" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_sha[0m[0m          = "92fb18765bb804959d45a4348d4cf8fc7921d8c8" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_size[0m[0m         = 3972 [33m->[0m [0m(known after apply)
+        [90m# (2 unchanged attributes hidden)[0m[0m
+
+        source {
+          # At least one attribute in this block is (or was) sensitive,
+          # so its contents will not be displayed.
+        }
+    }
+
+[1m  # module.cpf_clients.data.archive_file.client_files["7"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "archive_file" "client_files"  {
+      [33m~[0m [0m[1m[0mid[0m[0m                  = "db8d4c66eccba441a42ed1f8a956f8ce30de5a5a" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_base64sha256[0m[0m = "q6bk2YmdnKcleWAma7+htCK0Y8j7Jio4CeCBUL4SBMs=" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_md5[0m[0m          = "a6e2ca113392d57c08938449649eabb9" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_sha[0m[0m          = "db8d4c66eccba441a42ed1f8a956f8ce30de5a5a" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_size[0m[0m         = 3971 [33m->[0m [0m(known after apply)
+        [90m# (2 unchanged attributes hidden)[0m[0m
+
+        source {
+          # At least one attribute in this block is (or was) sensitive,
+          # so its contents will not be displayed.
+        }
+    }
+
+[1m  # module.cpf_clients.data.archive_file.client_files["8"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "archive_file" "client_files"  {
+      [33m~[0m [0m[1m[0mid[0m[0m                  = "0c9e9d61a19ca86717278f3b4fe96c04ed53cb58" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_base64sha256[0m[0m = "sxVsggiwVJrL/icZYy1rJTR5zs+kIFJIpyU/dt9RCWQ=" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_md5[0m[0m          = "c2d973cec05bf2aeb52a7b3b98f7142d" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_sha[0m[0m          = "0c9e9d61a19ca86717278f3b4fe96c04ed53cb58" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_size[0m[0m         = 3974 [33m->[0m [0m(known after apply)
+        [90m# (2 unchanged attributes hidden)[0m[0m
+
+        source {
+          # At least one attribute in this block is (or was) sensitive,
+          # so its contents will not be displayed.
+        }
+    }
+
+[1m  # module.cpf_clients.data.archive_file.client_files["9"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "archive_file" "client_files"  {
+      [33m~[0m [0m[1m[0mid[0m[0m                  = "25bb850c2045c015c3b0aae5285b5972c7bfd407" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_base64sha256[0m[0m = "zqQs1DQqtwGZfrksIF9tfRdGkBgbFCMMWuRq4t1sYlI=" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_md5[0m[0m          = "d014b868caaea9bf51a016b34727f383" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_sha[0m[0m          = "25bb850c2045c015c3b0aae5285b5972c7bfd407" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0moutput_size[0m[0m         = 3977 [33m->[0m [0m(known after apply)
+        [90m# (2 unchanged attributes hidden)[0m[0m
+
+        source {
+          # At least one attribute in this block is (or was) sensitive,
+          # so its contents will not be displayed.
+        }
+    }
+
+[1m  # module.cpf_clients.data.external.client_cert_serial_number["1"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "external" "client_cert_serial_number"  {
+      [33m~[0m [0m[1m[0mid[0m[0m      = "-" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0mresult[0m[0m  = {
+          [31m-[0m [0m"sn" = "0D27B3DE51F203D5193E9A1943333B20D57DFFF0"
+        } [33m->[0m [0m(known after apply)
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # module.cpf_clients.data.external.client_cert_serial_number["10"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "external" "client_cert_serial_number"  {
+      [33m~[0m [0m[1m[0mid[0m[0m      = "-" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0mresult[0m[0m  = {
+          [31m-[0m [0m"sn" = "59DC0E22BF8CD99F5C5C5C05EBD6158446C1F758"
+        } [33m->[0m [0m(known after apply)
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # module.cpf_clients.data.external.client_cert_serial_number["11"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "external" "client_cert_serial_number"  {
+      [33m~[0m [0m[1m[0mid[0m[0m      = "-" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0mresult[0m[0m  = {
+          [31m-[0m [0m"sn" = "28ED202C5EF07DC90A7A350C9A9950C92DAC646B"
+        } [33m->[0m [0m(known after apply)
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # module.cpf_clients.data.external.client_cert_serial_number["12"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "external" "client_cert_serial_number"  {
+      [33m~[0m [0m[1m[0mid[0m[0m      = "-" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0mresult[0m[0m  = {
+          [31m-[0m [0m"sn" = "5CFB22FAA42B9354527A902C0D1C5E8BD786BC5B"
+        } [33m->[0m [0m(known after apply)
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # module.cpf_clients.data.external.client_cert_serial_number["13"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "external" "client_cert_serial_number"  {
+      [33m~[0m [0m[1m[0mid[0m[0m      = "-" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0mresult[0m[0m  = {
+          [31m-[0m [0m"sn" = "70966FBC86347248C4846888DB32C9099B0BAA11"
+        } [33m->[0m [0m(known after apply)
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # module.cpf_clients.data.external.client_cert_serial_number["14"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "external" "client_cert_serial_number"  {
+      [33m~[0m [0m[1m[0mid[0m[0m      = "-" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0mresult[0m[0m  = {
+          [31m-[0m [0m"sn" = "7BC9FA684A649B0F4561189F22E5E44CA07A6AB2"
+        } [33m->[0m [0m(known after apply)
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # module.cpf_clients.data.external.client_cert_serial_number["15"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "external" "client_cert_serial_number"  {
+      [33m~[0m [0m[1m[0mid[0m[0m      = "-" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0mresult[0m[0m  = {
+          [31m-[0m [0m"sn" = "EDDEE26F40B8283B34E19FA2141FC7C70E9FB508"
+        } [33m->[0m [0m(known after apply)
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # module.cpf_clients.data.external.client_cert_serial_number["16"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "external" "client_cert_serial_number"  {
+      [33m~[0m [0m[1m[0mid[0m[0m      = "-" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0mresult[0m[0m  = {
+          [31m-[0m [0m"sn" = "A01861EE21E56BC29191DE195CAC1983C0B4374E"
+        } [33m->[0m [0m(known after apply)
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # module.cpf_clients.data.external.client_cert_serial_number["17"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "external" "client_cert_serial_number"  {
+      [33m~[0m [0m[1m[0mid[0m[0m      = "-" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0mresult[0m[0m  = {
+          [31m-[0m [0m"sn" = "DA5971CFD88BC5A430319907B271BD577C08BBD0"
+        } [33m->[0m [0m(known after apply)
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # module.cpf_clients.data.external.client_cert_serial_number["18"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "external" "client_cert_serial_number"  {
+      [33m~[0m [0m[1m[0mid[0m[0m      = "-" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0mresult[0m[0m  = {
+          [31m-[0m [0m"sn" = "16522B666ABD257A7D62A3FD3CA40603367547F7"
+        } [33m->[0m [0m(known after apply)
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # module.cpf_clients.data.external.client_cert_serial_number["19"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "external" "client_cert_serial_number"  {
+      [33m~[0m [0m[1m[0mid[0m[0m      = "-" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0mresult[0m[0m  = {
+          [31m-[0m [0m"sn" = "6D6F4ACE922C6B1677D9D0256F2AD600F6067FB9"
+        } [33m->[0m [0m(known after apply)
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # module.cpf_clients.data.external.client_cert_serial_number["2"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "external" "client_cert_serial_number"  {
+      [33m~[0m [0m[1m[0mid[0m[0m      = "-" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0mresult[0m[0m  = {
+          [31m-[0m [0m"sn" = "7288875330B0B1373BF675A29DC318307578AE50"
+        } [33m->[0m [0m(known after apply)
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # module.cpf_clients.data.external.client_cert_serial_number["20"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "external" "client_cert_serial_number"  {
+      [33m~[0m [0m[1m[0mid[0m[0m      = "-" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0mresult[0m[0m  = {
+          [31m-[0m [0m"sn" = "4DF192C63A768F67F69E6EAB8E94BFFA4B833D68"
+        } [33m->[0m [0m(known after apply)
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # module.cpf_clients.data.external.client_cert_serial_number["21"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "external" "client_cert_serial_number"  {
+      [33m~[0m [0m[1m[0mid[0m[0m      = "-" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0mresult[0m[0m  = {
+          [31m-[0m [0m"sn" = "CED863B12A33FD7EA35D8964A7832485A176EE0C"
+        } [33m->[0m [0m(known after apply)
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # module.cpf_clients.data.external.client_cert_serial_number["22"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "external" "client_cert_serial_number"  {
+      [33m~[0m [0m[1m[0mid[0m[0m      = "-" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0mresult[0m[0m  = {
+          [31m-[0m [0m"sn" = "AB4B8118E942925912F94DE2BE111DCD34D1DEB7"
+        } [33m->[0m [0m(known after apply)
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # module.cpf_clients.data.external.client_cert_serial_number["23"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "external" "client_cert_serial_number"  {
+      [33m~[0m [0m[1m[0mid[0m[0m      = "-" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0mresult[0m[0m  = {
+          [31m-[0m [0m"sn" = "E5432E9FCF85EE35EB0444FF1679A0D1A34C5E09"
+        } [33m->[0m [0m(known after apply)
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # module.cpf_clients.data.external.client_cert_serial_number["24"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "external" "client_cert_serial_number"  {
+      [33m~[0m [0m[1m[0mid[0m[0m      = "-" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0mresult[0m[0m  = {
+          [31m-[0m [0m"sn" = "D227D9F9932E77393DDF94F695D9176743456855"
+        } [33m->[0m [0m(known after apply)
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # module.cpf_clients.data.external.client_cert_serial_number["25"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "external" "client_cert_serial_number"  {
+      [33m~[0m [0m[1m[0mid[0m[0m      = "-" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0mresult[0m[0m  = {
+          [31m-[0m [0m"sn" = "8AC789CF513B0E3178C7AA4527B17C90030B045F"
+        } [33m->[0m [0m(known after apply)
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # module.cpf_clients.data.external.client_cert_serial_number["26"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "external" "client_cert_serial_number"  {
+      [33m~[0m [0m[1m[0mid[0m[0m      = "-" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0mresult[0m[0m  = {
+          [31m-[0m [0m"sn" = "B68E97BCB4B3CF0ED887F991DD35FA7878309306"
+        } [33m->[0m [0m(known after apply)
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # module.cpf_clients.data.external.client_cert_serial_number["3"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "external" "client_cert_serial_number"  {
+      [33m~[0m [0m[1m[0mid[0m[0m      = "-" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0mresult[0m[0m  = {
+          [31m-[0m [0m"sn" = "CC28349626977C995122436086D62268A958B995"
+        } [33m->[0m [0m(known after apply)
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # module.cpf_clients.data.external.client_cert_serial_number["4"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "external" "client_cert_serial_number"  {
+      [33m~[0m [0m[1m[0mid[0m[0m      = "-" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0mresult[0m[0m  = {
+          [31m-[0m [0m"sn" = "D98C7180E0C89A5608975E3460586927D792D03E"
+        } [33m->[0m [0m(known after apply)
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # module.cpf_clients.data.external.client_cert_serial_number["5"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "external" "client_cert_serial_number"  {
+      [33m~[0m [0m[1m[0mid[0m[0m      = "-" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0mresult[0m[0m  = {
+          [31m-[0m [0m"sn" = "3B9C7A6E41F46BF7857CD81A763DA4B76696D01B"
+        } [33m->[0m [0m(known after apply)
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # module.cpf_clients.data.external.client_cert_serial_number["6"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "external" "client_cert_serial_number"  {
+      [33m~[0m [0m[1m[0mid[0m[0m      = "-" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0mresult[0m[0m  = {
+          [31m-[0m [0m"sn" = "1205789FDC5C471AB53A51F75DCEEEF8E82B06E8"
+        } [33m->[0m [0m(known after apply)
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # module.cpf_clients.data.external.client_cert_serial_number["7"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "external" "client_cert_serial_number"  {
+      [33m~[0m [0m[1m[0mid[0m[0m      = "-" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0mresult[0m[0m  = {
+          [31m-[0m [0m"sn" = "82611B10C6F16BDF3404725810C0A18532F2212A"
+        } [33m->[0m [0m(known after apply)
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # module.cpf_clients.data.external.client_cert_serial_number["8"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "external" "client_cert_serial_number"  {
+      [33m~[0m [0m[1m[0mid[0m[0m      = "-" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0mresult[0m[0m  = {
+          [31m-[0m [0m"sn" = "CDA0C6E32E1C61968991DE460B9E1B5006940DB6"
+        } [33m->[0m [0m(known after apply)
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # module.cpf_clients.data.external.client_cert_serial_number["9"][0m will be read during apply
+  # (config refers to values not yet known)[0m[0m
+[0m [36m<=[0m[0m data "external" "client_cert_serial_number"  {
+      [33m~[0m [0m[1m[0mid[0m[0m      = "-" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0mresult[0m[0m  = {
+          [31m-[0m [0m"sn" = "A4EB16C64D605A5FFBE2D2607E1FE32DB3FDC258"
+        } [33m->[0m [0m(known after apply)
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # module.cpf_clients.aws_iot_certificate.client["27"][0m will be [1m[31mdestroyed[0m
+  # (because key ["27"] is not in for_each map)[0m
+[0m  [31m-[0m[0m resource "aws_iot_certificate" "client" {
+      [31m-[0m [0m[1m[0mactive[0m[0m          = true [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0marn[0m[0m             = "arn:aws:iot:ap-northeast-1:634518058314:cert/476a9ca2e8a61cf1bccb85c11f4298cda2c242895b28e0f6bcc5edb8dfa762db" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mcertificate_pem[0m[0m = (sensitive value)
+      [31m-[0m [0m[1m[0mid[0m[0m              = "476a9ca2e8a61cf1bccb85c11f4298cda2c242895b28e0f6bcc5edb8dfa762db" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mprivate_key[0m[0m     = (sensitive value)
+      [31m-[0m [0m[1m[0mpublic_key[0m[0m      = (sensitive value)
+    }
+
+[1m  # module.cpf_clients.aws_iot_policy.client_connect["27"][0m will be [1m[31mdestroyed[0m
+  # (because key ["27"] is not in for_each map)[0m
+[0m  [31m-[0m[0m resource "aws_iot_policy" "client_connect" {
+      [31m-[0m [0m[1m[0marn[0m[0m                = "arn:aws:iot:ap-northeast-1:634518058314:policy/cpf-client-connect-did-76CE640F61BB74790D55BF4F65EBE23174AF51ED" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mdefault_version_id[0m[0m = "1" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mid[0m[0m                 = "cpf-client-connect-did-76CE640F61BB74790D55BF4F65EBE23174AF51ED" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mname[0m[0m               = "cpf-client-connect-did-76CE640F61BB74790D55BF4F65EBE23174AF51ED" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mpolicy[0m[0m             = jsonencode(
+            {
+              [31m-[0m [0mStatement = [
+                  [31m-[0m [0m{
+                      [31m-[0m [0mAction   = "iot:Connect"
+                      [31m-[0m [0mEffect   = "Deny"
+                      [31m-[0m [0mResource = [
+                          [31m-[0m [0m"arn:aws:iot:ap-northeast-1:634518058314:client/cpf*",
+                          [31m-[0m [0m"arn:aws:iot:ap-northeast-1:634518058314:client/did-",
+                        ]
+                    },
+                  [31m-[0m [0m{
+                      [31m-[0m [0mAction   = "iot:Connect"
+                      [31m-[0m [0mEffect   = "Allow"
+                      [31m-[0m [0mResource = "arn:aws:iot:ap-northeast-1:634518058314:client/did-76CE640F61BB74790D55BF4F65EBE23174AF51ED"
+                    },
+                ]
+              [31m-[0m [0mVersion   = "2012-10-17"
+            }
+        ) [90m->[0m [0m[90mnull[0m[0m
+    }
+
+[1m  # module.cpf_clients.aws_iot_policy_attachment.client_connect["27"][0m will be [1m[31mdestroyed[0m
+  # (because key ["27"] is not in for_each map)[0m
+[0m  [31m-[0m[0m resource "aws_iot_policy_attachment" "client_connect" {
+      [31m-[0m [0m[1m[0mid[0m[0m     = "cpf-client-connect-did-76CE640F61BB74790D55BF4F65EBE23174AF51ED|arn:aws:iot:ap-northeast-1:634518058314:cert/476a9ca2e8a61cf1bccb85c11f4298cda2c242895b28e0f6bcc5edb8dfa762db" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mpolicy[0m[0m = "cpf-client-connect-did-76CE640F61BB74790D55BF4F65EBE23174AF51ED" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mtarget[0m[0m = "arn:aws:iot:ap-northeast-1:634518058314:cert/476a9ca2e8a61cf1bccb85c11f4298cda2c242895b28e0f6bcc5edb8dfa762db" [90m->[0m [0m[90mnull[0m[0m
+    }
+
+[1m  # module.cpf_clients.aws_iot_policy_attachment.client_pubsub["27"][0m will be [1m[31mdestroyed[0m
+  # (because key ["27"] is not in for_each map)[0m
+[0m  [31m-[0m[0m resource "aws_iot_policy_attachment" "client_pubsub" {
+      [31m-[0m [0m[1m[0mid[0m[0m     = "cpf-client-pubsub|arn:aws:iot:ap-northeast-1:634518058314:cert/476a9ca2e8a61cf1bccb85c11f4298cda2c242895b28e0f6bcc5edb8dfa762db" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mpolicy[0m[0m = "cpf-client-pubsub" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mtarget[0m[0m = "arn:aws:iot:ap-northeast-1:634518058314:cert/476a9ca2e8a61cf1bccb85c11f4298cda2c242895b28e0f6bcc5edb8dfa762db" [90m->[0m [0m[90mnull[0m[0m
+    }
+
+[1m  # module.cpf_clients.aws_iot_thing.client["26"][0m must be [1m[31mreplaced[0m[0m
+[0m[31m-[0m/[32m+[0m[0m resource "aws_iot_thing" "client" {
+      [33m~[0m [0m[1m[0marn[0m[0m               = "arn:aws:iot:ap-northeast-1:634518058314:thing/dev_bxd_0002" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0mattributes[0m[0m        = {
+          [31m-[0m [0m"certName"   = "9e030bba9c3d751b963e632e4d9064c1d021ba97dfab8b37f238bf0cf03b6252"
+          [31m-[0m [0m"deviceId"   = "did-B68E97BCB4B3CF0ED887F991DD35FA7878309306"
+          [31m-[0m [0m"deviceType" = "Wayna"
+        } [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0mdefault_client_id[0m[0m = "dev_bxd_0002" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0mid[0m[0m                = "dev_bxd_0002" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0mname[0m[0m              = "dev_bxd_0002" [33m->[0m [0m"dev_bxd_0003" [31m# forces replacement[0m[0m
+      [33m~[0m [0m[1m[0mversion[0m[0m           = 3 [33m->[0m [0m(known after apply)
+    }
+
+[1m  # module.cpf_clients.aws_iot_thing.client["27"][0m will be [1m[31mdestroyed[0m
+  # (because key ["27"] is not in for_each map)[0m
+[0m  [31m-[0m[0m resource "aws_iot_thing" "client" {
+      [31m-[0m [0m[1m[0marn[0m[0m               = "arn:aws:iot:ap-northeast-1:634518058314:thing/dev_bxd_0003" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mattributes[0m[0m        = {
+          [31m-[0m [0m"certName"   = "476a9ca2e8a61cf1bccb85c11f4298cda2c242895b28e0f6bcc5edb8dfa762db"
+          [31m-[0m [0m"deviceId"   = "did-76CE640F61BB74790D55BF4F65EBE23174AF51ED"
+          [31m-[0m [0m"deviceType" = "Android"
+        } [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mdefault_client_id[0m[0m = "dev_bxd_0003" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mid[0m[0m                = "dev_bxd_0003" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mname[0m[0m              = "dev_bxd_0003" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mversion[0m[0m           = 1 [90m->[0m [0m[90mnull[0m[0m
+    }
+
+[1m  # module.cpf_clients.aws_iot_thing_principal_attachment.client["26"][0m must be [1m[31mreplaced[0m[0m
+[0m[31m-[0m/[32m+[0m[0m resource "aws_iot_thing_principal_attachment" "client" {
+      [33m~[0m [0m[1m[0mid[0m[0m        = "dev_bxd_0002|arn:aws:iot:ap-northeast-1:634518058314:cert/9e030bba9c3d751b963e632e4d9064c1d021ba97dfab8b37f238bf0cf03b6252" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0mthing[0m[0m     = "dev_bxd_0002" [33m->[0m [0m"dev_bxd_0003" [31m# forces replacement[0m[0m
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # module.cpf_clients.aws_iot_thing_principal_attachment.client["27"][0m will be [1m[31mdestroyed[0m
+  # (because key ["27"] is not in for_each map)[0m
+[0m  [31m-[0m[0m resource "aws_iot_thing_principal_attachment" "client" {
+      [31m-[0m [0m[1m[0mid[0m[0m        = "dev_bxd_0003|arn:aws:iot:ap-northeast-1:634518058314:cert/476a9ca2e8a61cf1bccb85c11f4298cda2c242895b28e0f6bcc5edb8dfa762db" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mprincipal[0m[0m = "arn:aws:iot:ap-northeast-1:634518058314:cert/476a9ca2e8a61cf1bccb85c11f4298cda2c242895b28e0f6bcc5edb8dfa762db" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mthing[0m[0m     = "dev_bxd_0003" [90m->[0m [0m[90mnull[0m[0m
+    }
+
+[1m  # module.cpf_clients.aws_s3_bucket_object.client_file["26"][0m must be [1m[31mreplaced[0m[0m
+[0m[31m-[0m/[32m+[0m[0m resource "aws_s3_bucket_object" "client_file" {
+      [33m~[0m [0m[1m[0mbucket_key_enabled[0m[0m     = false [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0mcontent_type[0m[0m           = "binary/octet-stream" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0metag[0m[0m                   = "b1572071c46f8837ca12762f44f50b1c" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0mid[0m[0m                     = "dev_bxd_0002.zip" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0mkey[0m[0m                    = "dev_bxd_0002.zip" [33m->[0m [0m"dev_bxd_0003.zip" [31m# forces replacement[0m[0m
+      [32m+[0m [0m[1m[0mkms_key_id[0m[0m             = (known after apply)
+      [31m-[0m [0m[1m[0mmetadata[0m[0m               = {} [90m->[0m [0m[90mnull[0m[0m
+      [33m~[0m [0m[1m[0mserver_side_encryption[0m[0m = "AES256" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0msource[0m[0m                 = "./.terraform/tmp/dev_bxd_0002.zip" [33m->[0m [0m"./.terraform/tmp/dev_bxd_0003.zip"
+      [33m~[0m [0m[1m[0mstorage_class[0m[0m          = "STANDARD" [33m->[0m [0m(known after apply)
+      [31m-[0m [0m[1m[0mtags[0m[0m                   = {} [90m->[0m [0m[90mnull[0m[0m
+      [33m~[0m [0m[1m[0mtags_all[0m[0m               = {} [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0mversion_id[0m[0m             = "1Ud0WV6v_FrutYvYqsP1_8WwegIfhRpt" [33m->[0m [0m(known after apply)
+        [90m# (3 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # module.cpf_clients.aws_s3_bucket_object.client_file["27"][0m will be [1m[31mdestroyed[0m
+  # (because key ["27"] is not in for_each map)[0m
+[0m  [31m-[0m[0m resource "aws_s3_bucket_object" "client_file" {
+      [31m-[0m [0m[1m[0macl[0m[0m                    = "private" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mbucket[0m[0m                 = "cpf-clients-634518058314" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mbucket_key_enabled[0m[0m     = false [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mcontent_type[0m[0m           = "binary/octet-stream" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0metag[0m[0m                   = "205bec8096d60329466348eb36645436" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mforce_destroy[0m[0m          = false [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mid[0m[0m                     = "dev_bxd_0003.zip" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mkey[0m[0m                    = "dev_bxd_0003.zip" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mmetadata[0m[0m               = {} [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mserver_side_encryption[0m[0m = "AES256" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0msource[0m[0m                 = "./.terraform/tmp/dev_bxd_0003.zip" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mstorage_class[0m[0m          = "STANDARD" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mtags[0m[0m                   = {} [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mtags_all[0m[0m               = {} [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mversion_id[0m[0m             = "5mmVqDH6rqpWpoh6GAlHU83NxHZ3IUsE" [90m->[0m [0m[90mnull[0m[0m
+    }
+
+[1m  # module.file_server.aws_instance.instance[0m will be updated in-place[0m[0m
+[0m  [33m~[0m[0m resource "aws_instance" "instance" {
+        [1m[0mid[0m[0m                                   = "i-019be6bfaf020cf2b"
+      [33m~[0m [0m[1m[0minstance_type[0m[0m                        = "t3.small" [33m->[0m [0m"t3.medium"
+        [1m[0mtags[0m[0m                                 = {
+            "Group" = "tcn-contents"
+            "Name"  = "tcn-contents"
+            "OS"    = "windows"
+            "Type"  = "infra"
+        }
+        [90m# (29 unchanged attributes hidden)[0m[0m
+
+
+
+
+
+
+        [90m# (6 unchanged blocks hidden)[0m[0m
+    }
+
+[1m  # module.cpf_server.module.lambda_notify_alarm.aws_lambda_function.function[0m will be updated in-place[0m[0m
+[0m  [33m~[0m[0m resource "aws_lambda_function" "function" {
+        [1m[0mid[0m[0m                             = "notify-alarm-cpf"
+      [33m~[0m [0m[1m[0mlast_modified[0m[0m                  = "2022-04-01T04:48:32.000+0000" [33m->[0m [0m(known after apply)
+      [33m~[0m [0m[1m[0msource_code_hash[0m[0m               = "fphETIuv1iJTGcmVYXw56b6MA4UBgqJJPPht9Ze4/K4=" [33m->[0m [0m"aVuYAlV8yJjlViIayxjHPg+w7wfb1mzNEKsDVtSLU/c="
+        [1m[0mtags[0m[0m                           = {}
+        [90m# (24 unchanged attributes hidden)[0m[0m
+
+
+        [90m# (2 unchanged blocks hidden)[0m[0m
+    }
+
+[0m[1mPlan:[0m 3 to add, 2 to change, 10 to destroy.
+[0m[0m
+[1mChanges to Outputs:[0m[0m
+  [33m~[0m [0m[1m[0mclients[0m[0m = {
+      [33m~[0m [0m26 = {
+          [33m~[0m [0marn               = "arn:aws:iot:ap-northeast-1:634518058314:thing/dev_bxd_0002" [33m->[0m [0m(known after apply)
+          [33m~[0m [0mattributes        = {
+              [31m-[0m [0m"certName"   = "9e030bba9c3d751b963e632e4d9064c1d021ba97dfab8b37f238bf0cf03b6252"
+              [31m-[0m [0m"deviceId"   = "did-B68E97BCB4B3CF0ED887F991DD35FA7878309306"
+              [31m-[0m [0m"deviceType" = "Wayna"
+            } [33m->[0m [0m(known after apply)
+          [33m~[0m [0mdefault_client_id = "dev_bxd_0002" [33m->[0m [0m(known after apply)
+          [33m~[0m [0mid                = "dev_bxd_0002" [33m->[0m [0m(known after apply)
+          [33m~[0m [0mname              = "dev_bxd_0002" [33m->[0m [0m"dev_bxd_0003"
+          [33m~[0m [0mthing_type_name   = "" [90m->[0m [0m[90mnull[0m[0m
+          [33m~[0m [0mversion           = 3 [33m->[0m [0m(known after apply)
+        }
+      [31m-[0m [0m27 = {
+          [31m-[0m [0marn               = "arn:aws:iot:ap-northeast-1:634518058314:thing/dev_bxd_0003"
+          [31m-[0m [0mattributes        = {
+              [31m-[0m [0m"certName"   = "476a9ca2e8a61cf1bccb85c11f4298cda2c242895b28e0f6bcc5edb8dfa762db"
+              [31m-[0m [0m"deviceId"   = "did-76CE640F61BB74790D55BF4F65EBE23174AF51ED"
+              [31m-[0m [0m"deviceType" = "Android"
+            }
+          [31m-[0m [0mdefault_client_id = "dev_bxd_0003"
+          [31m-[0m [0mid                = "dev_bxd_0003"
+          [31m-[0m [0mname              = "dev_bxd_0003"
+          [31m-[0m [0mthing_type_name   = ""
+          [31m-[0m [0mversion           = 1
+        } [90m->[0m [0m[90mnull[0m[0m
+        [90m# (25 unchanged elements hidden)[0m[0m
+    }
+[33m╷[0m[0m
+[33m│[0m [0m[1m[33mWarning: [0m[0m[1mArgument is deprecated[0m
+[33m│[0m [0m
+[33m│[0m [0m[0m  with module.cpf_clients.aws_s3_bucket.client,
+[33m│[0m [0m  on ../../modules/cpf_clients/main.tf line 69, in resource "aws_s3_bucket" "client":
+[33m│[0m [0m  69: resource aws_s3_bucket client [4m{[0m[0m
+[33m│[0m [0m
+[33m│[0m [0mUse the aws_s3_bucket_versioning resource instead
+[33m│[0m [0m
+[33m│[0m [0m(and 7 more similar warnings elsewhere)
+[33m╵[0m[0m
+[90m
+─────────────────────────────────────────────────────────────────────────────[0m
+
+Note: You didn't use the -out option to save this plan, so Terraform can't
+guarantee to take exactly these actions if you run "terraform apply" now.
