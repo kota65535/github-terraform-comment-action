@@ -28,8 +28,8 @@ const run = () => {
     input = fs.readFileSync(inputFile)
   }
 
-  core.info("input:")
-  core.info(input)
+  core.warning("input:")
+  core.warning(input)
 
   let comment
   switch (type) {
