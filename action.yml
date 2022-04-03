@@ -12,13 +12,10 @@ inputs:
     description: "Comment input"
     default: "plan"
     required: true
-  include:
+  sections:
     description: "Comment sections included"
     default: "outside,action,output"
     required: true
-  exclude:
-    description: "Comment sections excluded"
-    required: false
 
 runs:
   using: "node16"
