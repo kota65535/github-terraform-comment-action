@@ -23,7 +23,7 @@ jobs:
         with:
           script: |
             const fs = require("fs")
-            return fs.readFileSync("./github/plan3.stdout")
+            return fs.readFileSync("./.github/plan3.stdout")
       - name: Terraform comment PR
         uses: "./"
         with:
