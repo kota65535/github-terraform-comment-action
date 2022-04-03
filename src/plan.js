@@ -99,11 +99,11 @@ const plan = (input, sectionSpecs) => {
     }
   }
 
-  const ret = []
+  let commentLines = []
   for (const s of MAJOR_SECTIONS) {
     if (s in selectedSections) {
       const sectionLines = SECTION_FUNCS[s](lines, selectedSections[s].minor)
-      ret.concat(sectionLines)
+      commentLines += sectionLines
       core.info(s)
       for (const line of sectionLines) {
         core.info(line)
@@ -111,7 +111,7 @@ const plan = (input, sectionSpecs) => {
     }
   }
 
-  return ret.join('\n')
+  return commentLines.join('\n')
 }
 
 module.exports = plan
