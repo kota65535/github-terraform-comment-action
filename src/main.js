@@ -7,11 +7,11 @@ const createCommentBody = (result) => {
   const title = result.title
   const detail = result.detail
   return `### ${title}
-    <details open><summary>Show Output</summary>
-    \`\`\`diff
-    ${detail}
-    \`\`\`
-    </details>`
+<details open><summary>Show Output</summary>
+\`\`\`diff
+${detail}
+\`\`\`
+</details>`
 }
 
 const run = () => {
