@@ -8505,11 +8505,7 @@ const plan = (input, sectionSpecs) => {
 
   return {
     title: "Terraform `plan` result",
-    detail: `<details><summary>Show Output</summary>
-    \`\`\`diff
-    ${commentLines.join('\n')}
-    \`\`\`
-    </details>`
+    detail: commentLines.join('\n')
   }
 }
 
