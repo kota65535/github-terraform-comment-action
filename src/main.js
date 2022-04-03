@@ -15,12 +15,16 @@ const plan = (commentInput, githubToken) => {
 const run = () => {
   const commentType = core.getInput('comment_type').trim()
   const commentInput = core.getInput('comment_input').trim()
-  const githubToken = core.getInput('github-token').trim()
 
   if (github.context.eventName !== 'pull_request') {
     core.warning("Action doesn't seem to be running in a PR workflow context.")
     core.warning('Skipping comment creation.')
     return
+  }
+
+  const githubToken = process.env.GITHUB_TOKEN
+  if (githubToken === 'undefined') {
+    throw new Error('GITHUB_TOKEN environment variable is required')
   }
 
   switch (commentType) {
