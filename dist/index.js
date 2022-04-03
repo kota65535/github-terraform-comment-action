@@ -8348,6 +8348,9 @@ const run = () => {
     input = fs.readFileSync(inputFile)
   }
 
+  core.warning("input:")
+  core.warning(input)
+
   let comment
   switch (type) {
     case 'plan':
@@ -8359,12 +8362,12 @@ const run = () => {
 
   core.info(comment)
 
-  const octokit = github.getOctokit(githubToken)
-  octokit.rest.issues.createComment({
-    ...github.context.repo,
-    issue_number: github.context.issue.number,
-    body: comment
-  })
+  // const octokit = github.getOctokit(githubToken)
+  // octokit.rest.issues.createComment({
+  //   ...github.context.repo,
+  //   issue_number: github.context.issue.number,
+  //   body: comment
+  // })
 }
 
 module.exports = run
