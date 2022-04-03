@@ -103,7 +103,7 @@ const plan = (input, sectionSpecs) => {
   for (const s of MAJOR_SECTIONS) {
     if (s in selectedSections) {
       const sectionLines = SECTION_FUNCS[s](lines, selectedSections[s].minor)
-      commentLines += sectionLines
+      commentLines = commentLines.concat(sectionLines)
       core.info(s)
       for (const line of sectionLines) {
         core.info(line)
