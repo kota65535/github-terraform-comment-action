@@ -107,7 +107,7 @@ const plan = (input, sectionSpecs) => {
     }
   }
 
-  return ret
+  return ret.join('\n')
 }
 
 module.exports = plan
