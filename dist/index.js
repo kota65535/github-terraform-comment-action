@@ -8306,7 +8306,6 @@ function wrappy (fn, cb) {
 const core = __webpack_require__(2186)
 const main = __webpack_require__(1713)
 
-// main
 try {
   main()
 } catch (error) {
