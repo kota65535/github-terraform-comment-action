@@ -25,11 +25,11 @@ const run = () => {
   }
 
   if (inputFile) {
-    input = fs.readFileSync(inputFile)
+    input = fs.readFileSync(inputFile, 'utf-8')
   }
 
-  core.warning("input:")
-  core.warning(input)
+  core.info("input:")
+  core.info(input)
 
   let comment
   switch (type) {
