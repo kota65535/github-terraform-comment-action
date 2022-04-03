@@ -8,9 +8,11 @@ const createCommentBody = (result) => {
   const detail = result.detail
   return `### ${title}
 <details open><summary>Show Output</summary>
+
 \`\`\`diff
 ${detail}
 \`\`\`
+
 </details>`
 }
 
