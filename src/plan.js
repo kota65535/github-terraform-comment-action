@@ -24,6 +24,10 @@ const getResourceActionSection = (lines, subsections) => {
     /^Terraform used the selected providers to generate the following execution$/,
     /^Plan:/)
 
+  if (subsections.length === 0) {
+    return matched
+  }
+
   const patterns = {
     create: {
       pattern: /^ {2}# .* will be created$/,
