@@ -3,7 +3,9 @@ const github = require('@actions/github')
 const fs = require('fs')
 const plan = require('./plan')
 
-const createCommentBody = (title, detail) => {
+const createCommentBody = (result) => {
+  const title = result.title
+  const detail = result.detail
   return `${title}
     <details><summary>Show Output</summary>
     \`\`\`diff

@@ -8323,7 +8323,9 @@ const github = __webpack_require__(5438)
 const fs = __webpack_require__(5747)
 const plan = __webpack_require__(3471)
 
-const createCommentBody = (title, detail) => {
+const createCommentBody = (result) => {
+  const title = result.title
+  const detail = result.detail
   return `${title}
     <details><summary>Show Output</summary>
     \`\`\`diff
