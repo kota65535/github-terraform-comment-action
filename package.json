@@ -7,7 +7,6 @@
     "build": "ncc build src/index.js",
     "test": "cd test && nyc --reporter=html mocha *.js",
     "format": "prettier --write src/**/*.js test/**/*.js",
-    "prepare": "husky install"
   },
   "repository": {
     "type": "git",

@@ -28,6 +28,9 @@ const run = () => {
     input = fs.readFileSync(inputFile)
   }
 
+  core.info("input:")
+  core.info(input)
+
   let comment
   switch (type) {
     case 'plan':
