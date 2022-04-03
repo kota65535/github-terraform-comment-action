@@ -28,7 +28,7 @@ const run = () => {
     input = fs.readFileSync(inputFile, 'utf-8')
   }
 
-  core.info("input:")
+  core.info("Input:")
   core.info(input)
 
   let comment
@@ -40,15 +40,15 @@ const run = () => {
       core.warning(`Unknown type ${type}`)
   }
 
+  core.info("Comment:")
   core.info(comment)
 
-
-  // const octokit = github.getOctokit(githubToken)
-  // octokit.rest.issues.createComment({
-  //   ...github.context.repo,
-  //   issue_number: github.context.issue.number,
-  //   body: comment
-  // })
+  const octokit = github.getOctokit(githubToken)
+  octokit.rest.issues.createComment({
+    ...github.context.repo,
+    issue_number: github.context.issue.number,
+    body: comment
+  })
 }
 
 module.exports = run
