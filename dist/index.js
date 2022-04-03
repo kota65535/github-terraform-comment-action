@@ -8323,6 +8323,15 @@ const github = __webpack_require__(5438)
 const fs = __webpack_require__(5747)
 const plan = __webpack_require__(3471)
 
+const createCommentBody = (title, detail) => {
+  return `${title}
+    <details><summary>Show Output</summary>
+    \`\`\`diff
+    ${detail}
+    \`\`\`
+    </details>`
+}
+
 const run = () => {
   const type = core.getInput('type').trim()
   let input = core.getInput('input').trim()
@@ -8351,26 +8360,23 @@ const run = () => {
   core.info("Input:")
   core.info(input)
 
-  let detail
+  let result
   switch (type) {
     case 'plan':
-      detail = plan(input, sections)
+      result = plan(input, sections)
       break
     default:
       core.warning(`Unknown type ${type}`)
   }
 
-  core.info("Detail:")
-  core.info(detail)
-
-
+  core.info(result)
 
   const octokit = github.getOctokit(githubToken)
 
   octokit.rest.issues.createComment({
     ...github.context.repo,
     issue_number: github.context.issue.number,
-    body: comment
+    body: createCommentBody(result)
   })
 }
 
