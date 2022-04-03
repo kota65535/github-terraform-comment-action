@@ -31,19 +31,22 @@ const run = () => {
   core.info("Input:")
   core.info(input)
 
-  let comment
+  let detail
   switch (type) {
     case 'plan':
-      comment = plan(input, sections)
+      detail = plan(input, sections)
       break
     default:
       core.warning(`Unknown type ${type}`)
   }
 
-  core.info("Comment:")
-  core.info(comment)
+  core.info("Detail:")
+  core.info(detail)
+
+
 
   const octokit = github.getOctokit(githubToken)
+
   octokit.rest.issues.createComment({
     ...github.context.repo,
     issue_number: github.context.issue.number,

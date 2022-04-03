@@ -111,7 +111,14 @@ const plan = (input, sectionSpecs) => {
     }
   }
 
-  return commentLines.join('\n')
+  return {
+    title: "Terraform `plan` result",
+    detail: `<details><summary>Show Output</summary>
+    \`\`\`diff
+    ${commentLines.join('\n')}
+    \`\`\`
+    </details>`
+  }
 }
 
 module.exports = plan
