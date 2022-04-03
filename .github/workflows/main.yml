@@ -18,8 +18,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+      - uses: actions/github-script@v6
+        id: read-plan
+        with:
+          script: |
+            const fs = require("fs")
+            return fs.readFileSync("./github/plan3.stdout")
       - name: Terraform comment PR
         uses: "./"
         with:
-          comment_type: plan
-          comment_input: aaaaa!!!
+          type: plan
+          input: ${{ steps.read-plan.outputs.result }}
+          sections: "actions"

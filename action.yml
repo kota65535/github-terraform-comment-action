@@ -4,14 +4,22 @@ branding:
   icon: "lock"
   color: "green"
 inputs:
-  comment_type:
+  type:
     description: "Comment type"
     default: "plan"
     required: true
-  comment_input:
+  input:
     description: "Comment input"
     default: "plan"
     required: true
+  include:
+    description: "Comment sections included"
+    default: "outside,action,output"
+    required: true
+  exclude:
+    description: "Comment sections excluded"
+    required: false
+
 runs:
   using: "node16"
   main: "dist/index.js"

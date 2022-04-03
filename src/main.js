@@ -1,20 +1,11 @@
 const core = require('@actions/core')
 const github = require('@actions/github')
-
-const plan = (commentInput, githubToken) => {
-  core.info('Looking for an existing fmt PR comment.')
-  const context = github.context
-  const octokit = github.getOctokit(githubToken)
-  octokit.rest.issues.createComment({
-    ...context.repo,
-    issue_number: context.issue.number,
-    body: 'aaaa'
-  })
-}
+const plan = require('./plan')
 
 const run = () => {
-  const commentType = core.getInput('comment_type').trim()
-  const commentInput = core.getInput('comment_input').trim()
+  const type = core.getInput('type').trim()
+  const input = core.getInput('input').trim()
+  const sections = core.getInput('sections').split(',').map(s => s.trim())
 
   if (github.context.eventName !== 'pull_request') {
     core.warning("Action doesn't seem to be running in a PR workflow context.")
@@ -27,13 +18,20 @@ const run = () => {
     throw new Error('GITHUB_TOKEN environment variable is required')
   }
 
-  switch (commentType) {
+  let comment
+  switch (type) {
     case 'plan':
-      plan(commentInput, githubToken)
+      comment = plan(input, sections)
       break
     default:
-      core.warning(`Unknown comment_type ${commentType}`)
+      core.warning(`Unknown type ${type}`)
   }
+
+  github.getOctokit.rest.issues.createComment({
+    ...github.context.repo,
+    issue_number: github.context.issue.number,
+    body: comment
+  })
 }
 
 module.exports = run

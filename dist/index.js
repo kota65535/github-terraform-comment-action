@@ -8320,21 +8320,12 @@ try {
 
 const core = __webpack_require__(2186)
 const github = __webpack_require__(5438)
-
-const plan = (commentInput, githubToken) => {
-  core.info('Looking for an existing fmt PR comment.')
-  const context = github.context
-  const octokit = github.getOctokit(githubToken)
-  octokit.rest.issues.createComment({
-    ...context.repo,
-    issue_number: context.issue.number,
-    body: 'aaaa'
-  })
-}
+const plan = __webpack_require__(3471)
 
 const run = () => {
-  const commentType = core.getInput('comment_type').trim()
-  const commentInput = core.getInput('comment_input').trim()
+  const type = core.getInput('type').trim()
+  const input = core.getInput('input').trim()
+  const sections = core.getInput('sections').split(',').map(s => s.trim())
 
   if (github.context.eventName !== 'pull_request') {
     core.warning("Action doesn't seem to be running in a PR workflow context.")
@@ -8347,16 +8338,193 @@ const run = () => {
     throw new Error('GITHUB_TOKEN environment variable is required')
   }
 
-  switch (commentType) {
+  let comment
+  switch (type) {
     case 'plan':
-      plan(commentInput, githubToken)
+      comment = plan(input, sections)
       break
     default:
-      core.warning(`Unknown comment_type ${commentType}`)
+      core.warning(`Unknown type ${type}`)
   }
+
+  github.getOctokit.rest.issues.createComment({
+    ...github.context.repo,
+    issue_number: github.context.issue.number,
+    body: comment
+  })
 }
 
 module.exports = run
+
+
+/***/ }),
+
+/***/ 3471:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+const core = __webpack_require__(2186)
+const { findLinesBetween, removeLinesBetween } = __webpack_require__(6254)
+
+const getRefreshSection = (lines, subsections) => {
+  const matched = []
+  for (const line of lines) {
+    if (line.match(/Refreshing state\.\.\./)) {
+      matched.push(line)
+    }
+  }
+  return matched
+}
+
+const getOutsideChangeSection = (lines, subsections) => {
+  return findLinesBetween(
+    lines,
+    /^Note: Objects have changed outside of Terraform$/,
+    /^─+/)
+}
+
+const getResourceActionSection = (lines, subsections) => {
+  let matched = findLinesBetween(
+    lines,
+    /^Terraform used the selected providers to generate the following execution$/,
+    /^Plan:/)
+
+  const patterns = {
+    create: {
+      pattern: /^ {2}# .* will be created$/,
+      condition: subsections.includes('create')
+    },
+    update: {
+      pattern: /^ {2}# .* will be updated in-place$/,
+      condition: subsections.includes('update')
+    },
+    replace: {
+      pattern: /^ {2}# .* (must be replaced|will be replaced, as requested)$/,
+      condition: subsections.includes('create') || subsections.includes('destroy')
+    },
+    destroy: {
+      pattern: /^ {2}# .* will be destroyed$/,
+      condition: subsections.includes('destroy')
+    },
+    read: {
+      pattern: /^ {2}# .* will be read during apply$/,
+      condition: subsections.includes('read')
+    }
+  }
+
+  for (const value of Object.values(patterns)) {
+    if (!value.condition) {
+      matched = removeLinesBetween(matched, value.pattern, /^ {4}}/, 1)
+    }
+  }
+  return matched
+}
+
+const getOutputChangeSection = (lines, subsections) => {
+  return findLinesBetween(
+    lines,
+    /^Changes to Outputs:$/,
+    /^─+/)
+}
+
+const MAJOR_SECTIONS = [
+  'refresh',
+  'outside',
+  'action',
+  'output'
+]
+
+const SECTION_FUNCS = {
+  refresh: getRefreshSection,
+  outside: getOutsideChangeSection,
+  action: getResourceActionSection,
+  output: getOutputChangeSection
+}
+
+const plan = (input, sectionSpecs) => {
+  const planInput = input.replace(/\x1b\[[0-9;]*m/g, '') // eslint-disable-line no-control-regex
+  const lines = planInput.split('\n')
+
+  const selectedSections = {}
+  for (const spec of sectionSpecs) {
+    const matched = spec.match(/^(\w+)(\.(\w+))?/)
+    if (matched) {
+      const majorSection = matched[1]
+      const minorSection = matched[3]
+      if (!(majorSection in selectedSections)) {
+        selectedSections[majorSection] = { minor: [] }
+      }
+      if (minorSection) {
+        selectedSections[majorSection].minor.push(minorSection)
+      }
+    }
+  }
+
+  const ret = []
+  for (const s of MAJOR_SECTIONS) {
+    if (s in selectedSections) {
+      const sectionLines = SECTION_FUNCS[s](lines, selectedSections[s].minor)
+      ret.concat(sectionLines)
+      core.info(s)
+      for (const line of sectionLines) {
+        core.info(line)
+      }
+    }
+  }
+
+  return ret
+}
+
+module.exports = plan
+
+
+/***/ }),
+
+/***/ 6254:
+/***/ ((module) => {
+
+
+const removeLinesBetween = (lines, beginPattern, endPattern, afterLines) => {
+  const remained = []
+  let found = false
+  let afterLinesCount = 0
+  for (const line of lines) {
+    if (line.match(beginPattern)) {
+      found = true
+    }
+    if (!found && afterLinesCount === 0) {
+      remained.push(line)
+    }
+    afterLinesCount = Math.max(afterLinesCount - 1, 0)
+    if (found && line.match(endPattern)) {
+      found = false
+      afterLinesCount = afterLines
+    }
+  }
+  return remained
+}
+
+const findLinesBetween = (lines, beginPattern, endPattern) => {
+  const matched = []
+  let found = false
+  for (const line of lines) {
+    if (found) {
+      matched.push(line)
+    }
+    if (line.match(beginPattern)) {
+      matched.push(line)
+      found = true
+    }
+    if (found && line.match(endPattern)) {
+      break
+    }
+  }
+  return matched
+}
+
+module.exports = {
+  findLinesBetween,
+  removeLinesBetween
+}
 
 
 /***/ }),
