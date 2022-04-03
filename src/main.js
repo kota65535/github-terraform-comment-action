@@ -1,10 +1,12 @@
 const core = require('@actions/core')
 const github = require('@actions/github')
+const fs = require('fs')
 const plan = require('./plan')
 
 const run = () => {
   const type = core.getInput('type').trim()
-  const input = core.getInput('input').trim()
+  let input = core.getInput('input').trim()
+  const inputFile = core.getInput('input_file').trim()
   const sections = core.getInput('sections').split(',').map(s => s.trim())
 
   if (github.context.eventName !== 'pull_request') {
@@ -16,6 +18,14 @@ const run = () => {
   const githubToken = process.env.GITHUB_TOKEN
   if (githubToken === 'undefined') {
     throw new Error('GITHUB_TOKEN environment variable is required')
+  }
+
+  if (input && inputFile) {
+    throw new Error('Specify only one of input or input_file')
+  }
+
+  if (inputFile) {
+    input = fs.readFileSync(inputFile)
   }
 
   let comment
