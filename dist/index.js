@@ -8357,7 +8357,8 @@ const run = () => {
       core.warning(`Unknown type ${type}`)
   }
 
-  github.getOctokit.rest.issues.createComment({
+  const octokit = github.getOctokit(githubToken)
+  octokit.rest.issues.createComment({
     ...github.context.repo,
     issue_number: github.context.issue.number,
     body: comment
