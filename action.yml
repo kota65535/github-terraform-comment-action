@@ -1,0 +1,18 @@
+name: "Terraform-Comment"
+description: "terraform result as PR comment"
+branding:
+  icon: "lock"
+  color: "green"
+inputs:
+  comment_type:
+    description: "Comment type"
+    default: "plan"
+    required: true
+  comment_input:
+    description: "Comment input"
+    default: "plan"
+    required: true
+runs:
+  using: "node16"
+  main: "dist/index.js"
+  post: "dist/index.js"
